@@ -12,7 +12,7 @@ Enemy Delivery Drivers
 Upgrades and Player Progression
 *It is recommended to play with a controller but mouse and keyboard will work as well. All of the controls can be found in the pause and start menu.
 
-     Gamepad Controls:
+Gamepad Controls:
 
 Accelerate with Right Trigger
 Break with Left Trigger/Handbrake with South Gamepad Button
@@ -24,7 +24,8 @@ Switch Weapons with Left/Right Shoulder Buttons
 Pause with Start Button
 Reset Car with Select Button
 Navigate menus with D-pad/Left Stick and select items with South Button
-     Keyboard and Mouse Controls:
+
+Keyboard and Mouse Controls:
 
 Accelerate with W
 Break with S and Handbrake with Spacebar
