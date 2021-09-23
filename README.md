@@ -14,26 +14,44 @@ Upgrades and Player Progression
 
 Gamepad Controls:
 
--Accelerate with Right Trigger
--Break with Left Trigger/Handbrake with South Gamepad Button
--Steer with Left stick
--Rotate Camera with Right Stick
--Open Order Menu with North Button
--Launch Weapons with East Button
--Switch Weapons with Left/Right Shoulder Buttons
--Pause with Start Button
--Reset Car with Select Button
--Navigate menus with D-pad/Left Stick and select items with South Button
+    -Accelerate with Right Trigger
+
+    -Break with Left Trigger/Handbrake with South Gamepad Button
+
+    -Steer with Left stick
+
+    -Rotate Camera with Right Stick
+
+    -Open Order Menu with North Button
+
+    -Launch Weapons with East Button
+
+    -Switch Weapons with Left/Right Shoulder Buttons
+
+    -Pause with Start Button
+
+    -Reset Car with Select Button
+
+    -Navigate menus with D-pad/Left Stick and select items with South Button
 
 Keyboard and Mouse Controls:
 
--Accelerate with W
--Break with S and Handbrake with Spacebar
--Steer with A/D
--Rotate Camera with Mouse
--Open Order menu with E
--Launch Weapons with Left Mouse Button
--Switch Weapons with Mouse Scroll Wheel
--Pause with ESC
--Reset Car with R
--Navigate menus with Mouse/W-S/Arrow keys and Select menu items with Left Mouse Button/Enter
+    -Accelerate with W
+
+    -Break with S and Handbrake with Spacebar
+
+    -Steer with A/D
+
+    -Rotate Camera with Mouse
+
+    -Open Order menu with E
+
+    -Launch Weapons with Left Mouse Button
+
+    -Switch Weapons with Mouse Scroll Wheel
+
+    -Pause with ESC
+
+    -Reset Car with R
+
+    -Navigate menus with Mouse/W-S/Arrow keys and Select menu items with Left Mouse Button/Enter
