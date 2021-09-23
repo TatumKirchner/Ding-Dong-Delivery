@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1084772921796282115
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 214848053191247577, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_Name
+      value: Blue Ding Dong Delivery Civilian Sedan Asset (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1222.6998
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -326.75528
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1252.8646
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}

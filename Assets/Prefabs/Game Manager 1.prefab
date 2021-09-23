@@ -1,0 +1,486 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5215655134828635178
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5215655134828635183}
+  - component: {fileID: 5215655134828635179}
+  - component: {fileID: 5215655134828635182}
+  - component: {fileID: 5215655134828635177}
+  - component: {fileID: 5215655134828635176}
+  - component: {fileID: 5215655134828635180}
+  - component: {fileID: 5215655134828635181}
+  - component: {fileID: 42988956098053050}
+  - component: {fileID: 2318456860154123142}
+  - component: {fileID: 8137636585259656998}
+  - component: {fileID: 846686443}
+  - component: {fileID: 846686444}
+  - component: {fileID: 7587363850666284176}
+  m_Layer: 0
+  m_Name: Game Manager 1
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5215655134828635183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 64.77762, y: 176.79, z: 831.6856}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5215655134828635179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f464cd0eb5df780418c4f26538e1a314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_money: {fileID: 0}
+  m_cash: 2000
+--- !u!114 &5215655134828635182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9cbee44f87e96438c8f5409925336c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_foodQuality: 100
+  tookDamage: 0
+  FoodDamageBar: {fileID: 0}
+--- !u!114 &5215655134828635177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75afecb60379cc4e9aed35edc6c580b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  text: {fileID: 0}
+  points: 500
+--- !u!114 &5215655134828635176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a3dc759d18ca54981b946a05b71ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPaused: 0
+--- !u!114 &5215655134828635180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9062e91f69fa98a40aca3628820a23d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  oneStarPickups:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  twoStarPickups:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  threeStarPickups:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  oneStarDropoffs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  twoStarDropoffs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  threeStarDropoffs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  oneStarOrderScreens:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  twoStarOrderScreens:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  threeStarOrderScreens:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  ceoPanel: {fileID: 0}
+  timeToPickup: 120
+  oneStarOrderTimer: 75
+  twoStarOrderTimer: 80
+  threeStarOrderTimer: 45
+  timer: {fileID: 0}
+  oneStarPayment: 8.4
+  twoStarPayment: 14.6
+  threeStarPayment: 21.6
+  rpToAdd: 30
+  oneStarOrderStarted: 0
+  twoStarOrderStarted: 0
+  threeStarOrderStarted: 0
+  oneStar: 0
+  twoStar: 0
+  threeStar: 0
+  isPickedup: 0
+  orderTimer: {fileID: 0}
+  gps: {fileID: 0}
+  foodDamageHud: {fileID: 0}
+  foodDamageBar: {fileID: 0}
+  dropoffWaitTime: 4
+  currentOneStarOrder: 0
+  currentTwoStarOrder: 0
+  currentThreeStarOrder: 0
+  ordermenu: {fileID: 0}
+  buttonOne: {fileID: 0}
+  buttonTwo: {fileID: 0}
+  buttonThree: {fileID: 0}
+  deliverySuccess: {fileID: 0}
+  deliveryFail: {fileID: 0}
+  dropoffPs: {fileID: 0}
+  foodCanDamage: 0
+  introFinished: 0
+--- !u!114 &5215655134828635181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec839b04890a6994a85c3991c4e858bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeCost: 500
+  currentCar: {fileID: 0}
+  starterCar: {fileID: 0}
+  sedan: {fileID: 0}
+  superCar: {fileID: 0}
+  mainCamera: {fileID: 0}
+  speedGauge: {fileID: 0}
+  miniMapTarget: {fileID: 0}
+  orderManager: {fileID: 5215655134828635180}
+  orderDrop: {fileID: 0}
+  playerCollisions: {fileID: 0}
+  minimapCamera: {fileID: 0}
+  speed: {fileID: 0}
+  upgradeCar: 0
+  shop: {fileID: 0}
+  enemySedans:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyStarterCars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemySuperCars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  numberOfUpgrades: 0
+--- !u!114 &42988956098053050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5b34674faa0b24468731eaee63f2e40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moises: 0
+  kyle: 0
+  brenda: 0
+  johnny: 0
+  tito: 0
+  hire: 0
+  employeeCost: 150
+  multiplyer: 0.15
+  numberOfEmployees: 0
+--- !u!114 &2318456860154123142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338d6e7f91166f247aa3bedd237a078b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  oneStarStartAudioClips:
+  - {fileID: 8300000, guid: 410a454ae9f46914295ff4ece7e10580, type: 3}
+  - {fileID: 8300000, guid: a881ba7cddedd144a9019183217cfa40, type: 3}
+  - {fileID: 8300000, guid: 26302525cdf65574fbb2084fed1a886f, type: 3}
+  - {fileID: 8300000, guid: 4a3e1415e6b8b0b4e9f2197f91472a8a, type: 3}
+  - {fileID: 8300000, guid: e64b0800d2016cb45bfc76700c8529bc, type: 3}
+  - {fileID: 8300000, guid: ac13445a5dcec2c45936acddb29170a8, type: 3}
+  twoStarStartAudioClips:
+  - {fileID: 8300000, guid: 2541c4fff2cdd0c40a8aeebc73b7ee40, type: 3}
+  - {fileID: 8300000, guid: a443b6643598dd64f95311431e5634a7, type: 3}
+  - {fileID: 8300000, guid: 3b2f9445846ac334e9d6c149c0d84d12, type: 3}
+  - {fileID: 8300000, guid: 34a72df869fae254297b8127ff3dbf8c, type: 3}
+  - {fileID: 8300000, guid: dae9a2f6578f8e44b9d72fb971194c73, type: 3}
+  - {fileID: 8300000, guid: 83cda3dd0c1008e41934aeb97863a91f, type: 3}
+  threeStarStartAudioClips:
+  - {fileID: 8300000, guid: 7e7655e34b7a93b4fb9fb4b064e33773, type: 3}
+  - {fileID: 8300000, guid: 424c353ae0dfea84da9f8649ee4ef564, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: ba12ccf513ae69a43a9601272c937d1f, type: 3}
+  - {fileID: 0}
+  oneStarTaskOneFinished:
+  - {fileID: 8300000, guid: 6797a82b265a0c94c84352a3cacf0173, type: 3}
+  - {fileID: 8300000, guid: e5cc44b17211a6140959ba686439cd2e, type: 3}
+  - {fileID: 8300000, guid: 9eb6f9aef562a784b9c08d73aa86052a, type: 3}
+  - {fileID: 8300000, guid: 9bda611a0694c3a4c9cfa8b07a228af6, type: 3}
+  oneStarTaskTwoFinished:
+  - {fileID: 8300000, guid: a7f4fad3e4ba9534faf0c18b9ce78877, type: 3}
+  - {fileID: 8300000, guid: 9c89ee980510e44498594304a8109336, type: 3}
+  - {fileID: 8300000, guid: 2e92bc8909a17b540b7579d82eb061f9, type: 3}
+  - {fileID: 8300000, guid: 94affe9aaaf18f04caeb9b1b47e22dee, type: 3}
+  oneStarTaskThreeFinished:
+  - {fileID: 8300000, guid: a5379d14aa8fc1f4ea7a133f6f395a6e, type: 3}
+  - {fileID: 8300000, guid: 4cd0175aba73cf440aceb3574c5df08a, type: 3}
+  - {fileID: 8300000, guid: 46fb3aae516275c449329a15cd37d4a9, type: 3}
+  - {fileID: 8300000, guid: f43456b854d3a3a46b406229d3ee9437, type: 3}
+  oneStarTaskFourFinished:
+  - {fileID: 8300000, guid: 2b83339dbd7be3143b25e51e9290b8ca, type: 3}
+  - {fileID: 8300000, guid: 9fbe611215da35e4daf0ead683275254, type: 3}
+  - {fileID: 8300000, guid: 8471d51a458f6834d8f69f8c94914f78, type: 3}
+  - {fileID: 8300000, guid: c16f42571bf8ddc4cb8649556f42ec67, type: 3}
+  oneStarTaskFiveFinished:
+  - {fileID: 8300000, guid: 1c3b1bea076cba243a73663d2630c543, type: 3}
+  - {fileID: 8300000, guid: d8292d094b92ea8428ee62cc8673716b, type: 3}
+  - {fileID: 8300000, guid: 1c0f1042f0cc78a4181e29372ed95093, type: 3}
+  - {fileID: 8300000, guid: eaff0ecabb8129140b2b4bbe1caeb1e9, type: 3}
+  oneStarTaskSixFinished:
+  - {fileID: 8300000, guid: dd90cd8af47ce714fa9da66d9fbe5797, type: 3}
+  - {fileID: 8300000, guid: 920b60886cbe190438d8f9fc46f2a716, type: 3}
+  - {fileID: 8300000, guid: 11212f1f54ddf8d40ad4aa6e786425e5, type: 3}
+  - {fileID: 8300000, guid: ac7de13f18cb08749ae5b01dfceb0fa8, type: 3}
+  twoStarTaskOneFinished:
+  - {fileID: 8300000, guid: f3e97652c71826e4c887e7bcfba77566, type: 3}
+  - {fileID: 8300000, guid: d5bd5d10baf0c3c4fae5983aecc44d1a, type: 3}
+  - {fileID: 8300000, guid: 3f2f45c11971e3c45898f994964736c6, type: 3}
+  - {fileID: 8300000, guid: 3f4dad1633697aa4ab08e41757e23851, type: 3}
+  twoStarTaskTwoFinished:
+  - {fileID: 8300000, guid: 8d4cb27441de5b342b0183fa766b56b2, type: 3}
+  - {fileID: 8300000, guid: 246c5d8ce04dcc7469d6323ad52f29c9, type: 3}
+  - {fileID: 8300000, guid: 7e9b8643449af0d4d9cd0f54ee0502a9, type: 3}
+  - {fileID: 8300000, guid: 3df5c4e2236b9eb4e89782e6dd7ac51a, type: 3}
+  twoStarTaskThreeFinished:
+  - {fileID: 8300000, guid: 102c341436a2d3943a0cff2276b72eb7, type: 3}
+  - {fileID: 8300000, guid: 9bfd2d8b421e4fe4ab4d7da2b52adfea, type: 3}
+  - {fileID: 8300000, guid: 3fff77bf46472fd468d56fcc3a1c64eb, type: 3}
+  - {fileID: 8300000, guid: 1b63c0767c7a5b040862142f353e1756, type: 3}
+  twoStarTaskFourFinished:
+  - {fileID: 8300000, guid: d9c059d9617380848b4fd496c3a98cc6, type: 3}
+  - {fileID: 8300000, guid: b9cad523e6f02c540b3b0c9d0ebd8c47, type: 3}
+  - {fileID: 8300000, guid: dbe2f0be6d243b04287ad6dc04a276f3, type: 3}
+  - {fileID: 8300000, guid: a842b1fa1cdba214a832c16a4b512e58, type: 3}
+  twoStarTaskFiveFinished:
+  - {fileID: 8300000, guid: bf9dc972346be94429ee2ddb77165662, type: 3}
+  - {fileID: 8300000, guid: 9eb962a60e41bde4383249ca3504656d, type: 3}
+  - {fileID: 8300000, guid: 0de45b3bc751f69469c6f6d548e1ae48, type: 3}
+  - {fileID: 8300000, guid: 3d2e5c5778490924f9b7594436a4bfd0, type: 3}
+  twoStarTaskSixFinished:
+  - {fileID: 8300000, guid: 065b070e3ea24a049ac9647647e70a84, type: 3}
+  - {fileID: 8300000, guid: 83297f614a436fc47baeb04124d4f63e, type: 3}
+  - {fileID: 8300000, guid: 289c3a3e093eec94ba8a7085c319aa0e, type: 3}
+  - {fileID: 8300000, guid: b3e0a21eeae701c44816caa9359ddeff, type: 3}
+  threeStarTaskOneFinished:
+  - {fileID: 8300000, guid: 26bf3ccbfc234bc4089de4ab55f5365c, type: 3}
+  - {fileID: 8300000, guid: 7a92c659c3587f24397e2db3b9dce082, type: 3}
+  - {fileID: 8300000, guid: aa911baf972298742aee3acdf23cc30d, type: 3}
+  - {fileID: 8300000, guid: 2954f8467fdbad444ba2a8063ecac10a, type: 3}
+  threeStarTaskTwoFinished:
+  - {fileID: 8300000, guid: d911746000d572545b2bd659bc6ac3b6, type: 3}
+  - {fileID: 8300000, guid: 1909daa7e78d71a4ead0f59468eef06a, type: 3}
+  - {fileID: 8300000, guid: 1325ba4ee80f4794fa0366b2b9b431d9, type: 3}
+  - {fileID: 8300000, guid: 2131858acec105549a6c5ad5d7955c69, type: 3}
+  threeStarTaskThreeFinished:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  threeStarTaskFourFinished:
+  - {fileID: 8300000, guid: 624325b9ccb4a094fb76676928414100, type: 3}
+  - {fileID: 8300000, guid: f014ab2bc35afd3408b94883e2e3bd7c, type: 3}
+  - {fileID: 8300000, guid: e7b94512b3e473448a3c3dc017f8f152, type: 3}
+  - {fileID: 8300000, guid: 5c092b60c75caaf4481f8ea3b6d4db7d, type: 3}
+  threeStarTaskFiveFinished:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  oneStarMusic:
+  - {fileID: 8300000, guid: 5177a0f43f89a1e42858fa01029a214a, type: 3}
+  - {fileID: 8300000, guid: af0c927f4bb37d243b21e976959acbaf, type: 3}
+  - {fileID: 8300000, guid: 8124c18f2e340834fa5c0b56b0e52cc6, type: 3}
+  - {fileID: 8300000, guid: dc1dc89bebcff3449854ab283aed881b, type: 3}
+  - {fileID: 8300000, guid: aad109f86c79b6d4396660d0827ef425, type: 3}
+  - {fileID: 8300000, guid: 6c470237562170a47b182e5a16c98b86, type: 3}
+  twoStarMusic:
+  - {fileID: 8300000, guid: 0a64c819fca91d04e9ce729a4ba4438e, type: 3}
+  - {fileID: 8300000, guid: 62f061b7d9f24994fb2de64c66d1d10e, type: 3}
+  - {fileID: 8300000, guid: 86b777c310927164cb5324378e555b7f, type: 3}
+  - {fileID: 8300000, guid: 49696e34924a3da4586bd98c423ded93, type: 3}
+  - {fileID: 8300000, guid: cc59ebed8bc1abe4c866fe18e175e31c, type: 3}
+  - {fileID: 8300000, guid: b5ae6596e6def5346ac23c109ad72c12, type: 3}
+  threeStarMusic:
+  - {fileID: 8300000, guid: d39a4209c3fb1ca4197d285393db4ad2, type: 3}
+  - {fileID: 8300000, guid: 3b660d30b8f7c17429a85abb767fe386, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: c3a3262be540a504aa4b3626553b5667, type: 3}
+  - {fileID: 0}
+--- !u!114 &8137636585259656998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b121f59771d21f24bba29f863832b244, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 5cb45f960956f634985cfc3c54458d63, type: 3}
+  - {fileID: 8300000, guid: 99691013551df9d49b0dc8333860b673, type: 3}
+  introPlayed: 0
+--- !u!114 &846686443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db55b7be3ae9e64448e901185ac86523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+--- !u!114 &846686444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd7aaffe78cc31347ab95d37e95681b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: -1
+  texturesToAdjust:
+  - {fileID: 2800000, guid: 753ec96e6680dd34f93f251b2dae2925, type: 3}
+  - {fileID: 2800000, guid: af1f702cf794c6141b9ad7d47b2d420c, type: 3}
+  - {fileID: 2800000, guid: 33c47250e77a00048b40506316970ff1, type: 3}
+  - {fileID: 2800000, guid: 2615a6be09aafa84984e7ae26a26e2c5, type: 3}
+  - {fileID: 2800000, guid: 05a089457729263499d177a5e3ae8337, type: 3}
+  - {fileID: 2800000, guid: a31043d5be0d8574db049139e82c4e8e, type: 3}
+  - {fileID: 2800000, guid: 82a3a5606795bab459de8e71c85f2335, type: 3}
+  - {fileID: 2800000, guid: aed7d9622d7ed93418f3952bf6c2b340, type: 3}
+  - {fileID: 2800000, guid: dbaf798690d719b48a3c9ce08e6c498e, type: 3}
+  - {fileID: 2800000, guid: 4cae4db262e72b74aa3af65e17cefd17, type: 3}
+  - {fileID: 2800000, guid: 1f3eedd791400c74d909cb7ee6eacfb3, type: 3}
+  - {fileID: 2800000, guid: 7ec7ab5a20954b54da276f45db645b4e, type: 3}
+  - {fileID: 2800000, guid: a230c46aa2c278e408e1bebf6e34c450, type: 3}
+  - {fileID: 2800000, guid: 46afbf5cb5cd14b48a283d582de54712, type: 3}
+  - {fileID: 2800000, guid: 7082e3b6fbe6224468c999b7a8461aa1, type: 3}
+  - {fileID: 2800000, guid: 832b845cbe2758a43bbb166e5e81930e, type: 3}
+--- !u!114 &7587363850666284176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5215655134828635178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d03bea23b67f8ab49a5da35ab1a4472a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  money: {fileID: 5215655134828635179}
+  rp: {fileID: 5215655134828635177}
+  weapons: {fileID: 0}
+  playerDamage: {fileID: 0}
+  carSwitch: {fileID: 5215655134828635181}
+  carController: {fileID: 0}
+  playerCollisions: {fileID: 0}
+  employee: {fileID: 42988956098053050}
+  orderManager: {fileID: 5215655134828635180}
+  setVolume: {fileID: 0}
