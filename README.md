@@ -55,3 +55,21 @@ Keyboard and Mouse Controls:
     -Reset Car with R
 
     -Navigate menus with Mouse/W-S/Arrow keys and Select menu items with Left Mouse Button/Enter
+    
+Credits:
+
+    -Darius Saberzadeh - Producer, Lead Designer, Writer, UI, Level Design, Voice actor
+    
+    -Tatum Kirchner - Lead Programmer, Designer
+    
+    -Rudy Gurrola - Artist, Level Designer
+    
+    -Joey Alfred - Artist
+    
+    -Shanhao Bian - Level Designer
+    
+    -Robert Beccera - Audio Composition, Design
+    
+    -Connor Aguirre - Voice Actor, Writer
+    
+    -Wyatt Limon - Voice Actor
