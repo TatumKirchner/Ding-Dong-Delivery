@@ -1,5 +1,7 @@
 # Ding-Dong-Delivery
-Ding Dong Delivery is a wacky open-world food delivery driving simulation game.It is a 3rd person 3D very low poly game. In this game, the player will race against time and fight other delivery driving companies to deliver their food the fastest. The faster and more well persevered the food is when the player delivers it, the more tips and company respect the player will get for upgrades. These upgrades will go to their vehicle, equipment, and delivery business size. The player will start with an old car in a poverty-stricken area with a small delivery company. Eventually, the player will upgrade, have a fast race car, and complete tasks in a rich upper-class city with a team of delivery employees. 
+Ding Dong Delivery is a wacky open-world food delivery driving simulation game.It is a 3rd person 3D very low poly game. In this game, the player will race against time and fight other delivery driving companies to deliver their food the fastest. The faster and more well persevered the food is when the player delivers it, the more tips and company respect the player will get for upgrades. These upgrades will go to their vehicle, equipment, and delivery business size. The player will start with an old car in a poverty-stricken area with a small delivery company. Eventually, the player will upgrade, have a fast race car, and complete tasks in a rich upper-class city with a team of delivery employees.
+
+#### Download a build on [itch.io](https://tatumkirchner.itch.io/ding-dong-delivery)
 
 General Features:
 
@@ -55,3 +57,21 @@ Keyboard and Mouse Controls:
     -Reset Car with R
 
     -Navigate menus with Mouse/W-S/Arrow keys and Select menu items with Left Mouse Button/Enter
+    
+Credits:
+
+    -Darius Saberzadeh - Producer, Lead Designer, Writer, UI, Level Design, Voice actor
+    
+    -Tatum Kirchner - Lead Programmer, Designer
+    
+    -Rudy Gurrola - Artist, Level Designer
+    
+    -Joey Alfred - Artist
+    
+    -Shanhao Bian - Level Designer
+    
+    -Robert Beccera - Audio Composition, Design
+    
+    -Connor Aguirre - Voice Actor, Writer
+    
+    -Wyatt Limon - Voice Actor
