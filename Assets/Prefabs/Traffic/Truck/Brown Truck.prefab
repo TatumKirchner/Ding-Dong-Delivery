@@ -3243,6 +3243,7 @@ GameObject:
   - component: {fileID: 6396277140314550446}
   - component: {fileID: 8012304257544003598}
   - component: {fileID: 6268678554080321955}
+  - component: {fileID: 2328442624582087502}
   m_Layer: 0
   m_Name: Brown Truck
   m_TagString: Untagged
@@ -3358,6 +3359,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &2328442624582087502
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3904715552798030939}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.013630092, y: 1.3468118, z: 0.035925508}
+  m_Size: 7.1059732
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0166208
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3904715552701752544}
+    - renderer: {fileID: 1707303270614097295}
+    - renderer: {fileID: 6653785546343172126}
+    - renderer: {fileID: 511384777878275966}
+    - renderer: {fileID: 5191600576853194175}
+    - renderer: {fileID: 4508685796830499052}
+    - renderer: {fileID: 8915100346879695502}
+    - renderer: {fileID: 845592917647755390}
+    - renderer: {fileID: 3612245751046231345}
+    - renderer: {fileID: 1269564427585100094}
+    - renderer: {fileID: 9194597034877918957}
+    - renderer: {fileID: 6786718935306281396}
+    - renderer: {fileID: 2975628128917411306}
+    - renderer: {fileID: 1989906828221848934}
+    - renderer: {fileID: 630201987355226361}
+    - renderer: {fileID: 3448790714250410672}
+    - renderer: {fileID: 5235489319004072408}
+    - renderer: {fileID: 629228507871423699}
+    - renderer: {fileID: 8575901810030314505}
+    - renderer: {fileID: 4835827199867087633}
+    - renderer: {fileID: 7738420918756204598}
+    - renderer: {fileID: 4196056714379411723}
+    - renderer: {fileID: 7142829397039528025}
+    - renderer: {fileID: 5470133893632948521}
+    - renderer: {fileID: 2581021120806048913}
+    - renderer: {fileID: 7169683598032373219}
+    - renderer: {fileID: 7445529281444449592}
+    - renderer: {fileID: 5731766092519893853}
+    - renderer: {fileID: 5880650739605321768}
+    - renderer: {fileID: 867233876035685964}
+    - renderer: {fileID: 2688076434426162090}
+    - renderer: {fileID: 1630271241688390153}
+    - renderer: {fileID: 1457670427911396821}
+    - renderer: {fileID: 7475460061602666208}
+    - renderer: {fileID: 8088762611652538200}
+    - renderer: {fileID: 2013010318732428305}
+    - renderer: {fileID: 4882658164045663015}
+    - renderer: {fileID: 8750495029103534660}
+    - renderer: {fileID: 5564884743098133740}
+    - renderer: {fileID: 2846485662551278185}
+    - renderer: {fileID: 7225070701166801535}
+    - renderer: {fileID: 3077907849957474786}
+    - renderer: {fileID: 8027665328637766156}
+    - renderer: {fileID: 2391431781723659231}
+    - renderer: {fileID: 4629911187120831990}
+    - renderer: {fileID: 2223499439187599103}
+    - renderer: {fileID: 299435519441378471}
+    - renderer: {fileID: 5228013100259428073}
+    - renderer: {fileID: 2709066912260903631}
+    - renderer: {fileID: 2874691091530999846}
+    - renderer: {fileID: 3974490154078999040}
+    - renderer: {fileID: 1959603788512164636}
+    - renderer: {fileID: 8056388324991144869}
+    - renderer: {fileID: 7804868519457485578}
+    - renderer: {fileID: 3990558670599776991}
+    - renderer: {fileID: 4852574262832243775}
+    - renderer: {fileID: 4813678771866056675}
+    - renderer: {fileID: 604844396060455188}
+    - renderer: {fileID: 5001360428666890495}
+    - renderer: {fileID: 3657339690128397763}
+    - renderer: {fileID: 1796208812196857312}
+    - renderer: {fileID: 4878705948559675158}
+    - renderer: {fileID: 3487134591239217221}
+    - renderer: {fileID: 6842981988791425233}
+    - renderer: {fileID: 6849330272702679858}
+    - renderer: {fileID: 4064352552304814837}
+    - renderer: {fileID: 5410140833662476880}
+  m_Enabled: 1
 --- !u!1 &3904715552914319539
 GameObject:
   m_ObjectHideFlags: 0
@@ -6632,5 +6718,10 @@ PrefabInstance:
 --- !u!4 &3904715552682317824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+  m_PrefabInstance: {fileID: 3904715552682443392}
+  m_PrefabAsset: {fileID: 0}
+--- !u!199 &3904715552701752544 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 19900000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
   m_PrefabInstance: {fileID: 3904715552682443392}
   m_PrefabAsset: {fileID: 0}

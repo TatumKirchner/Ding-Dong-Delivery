@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8274342529201305324
 Transform:
@@ -97,7 +97,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2252102524549401923
 Transform:
@@ -178,7 +178,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &929695137056221956
 Transform:
@@ -255,12 +255,13 @@ GameObject:
   - component: {fileID: 6656713048551411179}
   - component: {fileID: 5119780081278487842}
   - component: {fileID: 5566001044042635147}
+  - component: {fileID: 3686603728688267144}
   m_Layer: 0
   m_Name: House_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6694367024115638380
 Transform:
@@ -271,7 +272,7 @@ Transform:
   m_GameObject: {fileID: 7357260370042669517}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 1409.22, y: 4.6552043, z: 1763.1}
-  m_LocalScale: {x: 3.6, y: 3.7, z: 3.2}
+  m_LocalScale: {x: 3.62, y: 3.6, z: 3.2000003}
   m_Children:
   - {fileID: 2252102524549401923}
   - {fileID: 929695137056221956}
@@ -306,7 +307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1792539558728417982, guid: 2f2ce1816cdbb2f4d835c8b684e4fd2b, type: 3}
+  - {fileID: 2100000, guid: 799437ad09af1bf41a8a901aa0534541, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -342,3 +343,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2922939826708105087, guid: 2f2ce1816cdbb2f4d835c8b684e4fd2b, type: 3}
+--- !u!205 &3686603728688267144
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357260370042669517}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.6145096, y: 1.1748567, z: 0.0011382103}
+  m_Size: 10.364638
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.08953176
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5119780081278487842}
+    - renderer: {fileID: 8231622230019577660}
+    - renderer: {fileID: 8676257429571885682}
+    - renderer: {fileID: 6036105222735807112}
+  m_Enabled: 1

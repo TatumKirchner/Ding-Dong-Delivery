@@ -1409,6 +1409,7 @@ GameObject:
   - component: {fileID: 2165372231759417949}
   - component: {fileID: 8325330632938292794}
   - component: {fileID: 4635348963946106790}
+  - component: {fileID: 2103589744250305471}
   m_Layer: 0
   m_Name: Gray SUV
   m_TagString: Untagged
@@ -1524,6 +1525,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &2103589744250305471
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8162702026988400629}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.027415454, y: 1.0476925, z: -0.4992988}
+  m_Size: 5.11155
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.012922607
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8162702026768024749}
+    - renderer: {fileID: 1913732055073643105}
+    - renderer: {fileID: 4211238202978656444}
+    - renderer: {fileID: 3742072424370075819}
+    - renderer: {fileID: 5436696000768960418}
+    - renderer: {fileID: 1612772272580368456}
+    - renderer: {fileID: 6797809694958939881}
+    - renderer: {fileID: 9095409442773236138}
+    - renderer: {fileID: 7454042986702960705}
+    - renderer: {fileID: 9122124076026177038}
+    - renderer: {fileID: 442307470916102410}
+    - renderer: {fileID: 2814477983235532240}
+    - renderer: {fileID: 7856144654668226551}
+  m_Enabled: 1
 --- !u!1 &8162702027251163217
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,6 +2101,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad6d4613037bf124489e0a866ea0398a, type: 3}
+--- !u!199 &1913732055073643105 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 7766825982581264509, guid: ad6d4613037bf124489e0a866ea0398a, type: 3}
+  m_PrefabInstance: {fileID: 8162702025377090076}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &6213195931700119959 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845724080870900619, guid: ad6d4613037bf124489e0a866ea0398a, type: 3}
@@ -2159,6 +2196,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 79364d531ccc4f54292947e463a7d080, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+--- !u!199 &8162702026768024749 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 19900000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+  m_PrefabInstance: {fileID: 8162702026786022093}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8162702026786420813 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}

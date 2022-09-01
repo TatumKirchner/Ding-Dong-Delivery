@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7631297021963217921}
   - component: {fileID: 7449609022638570182}
   - component: {fileID: 7581006109246337388}
+  - component: {fileID: 6599785802067712726}
   m_Layer: 0
   m_Name: concrete slab little
   m_TagString: Untagged
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6110250605266174456}
-  m_LocalRotation: {x: -3.2754466e-14, y: 1, z: -0.00000008146034, w: -0.00000040133926}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 945.9816, y: 20.19961, z: 518.61505}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!33 &7631297021963217921
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -97,3 +98,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.326426, y: 0.40095073, z: 1.5521209}
   m_Center: {x: -0.000000029802322, y: 0.000000052154064, z: 0.0000009536743}
+--- !u!205 &6599785802067712726
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6110250605266174456}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.000019133091, z: -0.00012111664}
+  m_Size: 1.5521209
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.019892612
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7449609022638570182}
+  m_Enabled: 1

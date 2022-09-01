@@ -741,6 +741,7 @@ GameObject:
   - component: {fileID: 5122827292757695594}
   - component: {fileID: 3958888229362014041}
   - component: {fileID: 7256061883461505976}
+  - component: {fileID: 2643336489899857351}
   m_Layer: 0
   m_Name: S_Hospital
   m_TagString: Untagged
@@ -826,6 +827,35 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17.093115, y: 7.142495, z: 7.430291}
   m_Center: {x: 0, y: 1.8385383, z: 0}
+--- !u!205 &2643336489899857351
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5768646027139449331}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.8385382, z: 0}
+  m_Size: 17.093636
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05194072
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3958888229362014041}
+    - renderer: {fileID: 4939288937584707217}
+    - renderer: {fileID: 7184059176446943317}
+    - renderer: {fileID: 7151884144345718141}
+    - renderer: {fileID: 2764000126188174667}
+    - renderer: {fileID: 3190409001018985578}
+    - renderer: {fileID: 3665749813540646520}
+    - renderer: {fileID: 7918269913457434195}
+    - renderer: {fileID: 3421000957602837653}
+    - renderer: {fileID: 1634190107039323799}
+    - renderer: {fileID: 103155140340126166}
+  m_Enabled: 1
 --- !u!1 &7701025730708701116
 GameObject:
   m_ObjectHideFlags: 0

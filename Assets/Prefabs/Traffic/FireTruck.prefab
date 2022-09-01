@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 934955523882348061}
   - component: {fileID: 934955523882348060}
   - component: {fileID: 3115784286740953567}
+  - component: {fileID: 7623894359249182794}
   m_Layer: 0
   m_Name: FireTruck
   m_TagString: Untagged
@@ -468,6 +469,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &7623894359249182794
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934955523882348058}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.1526196, y: 5.5565243, z: -0.7529564}
+  m_Size: 21.609165
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.024373954
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4389451873813286289}
+    - renderer: {fileID: 5115469743922120188}
+    - renderer: {fileID: 4642066807481915805}
+    - renderer: {fileID: 2948222793570868307}
+    - renderer: {fileID: 8981333735129596929}
+  m_Enabled: 1
 --- !u!1 &934955523927893609
 GameObject:
   m_ObjectHideFlags: 0

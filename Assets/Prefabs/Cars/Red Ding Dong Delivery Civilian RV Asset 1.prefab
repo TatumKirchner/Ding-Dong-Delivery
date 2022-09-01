@@ -90,6 +90,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1264253682829086064}
+  - component: {fileID: 602981059798962304}
   m_Layer: 0
   m_Name: Red Ding Dong Delivery Civilian RV Asset 1
   m_TagString: Untagged
@@ -116,6 +117,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &602981059798962304
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927638128448870346}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0800848, y: 1.5007021, z: -0.004281044}
+  m_Size: 8.025336
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.042009104
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8527963177330225823}
+    - renderer: {fileID: 7325741908056561260}
+    - renderer: {fileID: 1807601203695528816}
+    - renderer: {fileID: 8517618643748925333}
+    - renderer: {fileID: 3122827080692811095}
+  m_Enabled: 1
 --- !u!1 &4713539599687887149
 GameObject:
   m_ObjectHideFlags: 0

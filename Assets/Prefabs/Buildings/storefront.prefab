@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 3460215205383627826}
   - component: {fileID: 8948552362662204113}
   - component: {fileID: 4356238831706732674}
+  - component: {fileID: 6434970284305711648}
   m_Layer: 0
   m_Name: storefront
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &9107860845469440808
 Transform:
@@ -26,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3062000133555505707}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.293871, y: 6.600061, z: 605.23474}
-  m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
+  m_LocalScale: {x: 2.7000003, y: 2.7, z: 2.7000003}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -95,3 +96,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.920129, y: 5.4867806, z: 5.679026}
   m_Center: {x: -0.00000011920929, y: 0.2659146, z: 0.23418263}
+--- !u!205 &6434970284305711648
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3062000133555505707}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.00012207031, y: 0.26591682, z: 0.2343049}
+  m_Size: 12.920525
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07426039
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8948552362662204113}
+  m_Enabled: 1

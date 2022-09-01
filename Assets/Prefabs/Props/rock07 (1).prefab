@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 8404061741414864125}
   - component: {fileID: 6000429580365275191}
   - component: {fileID: 3005340276788141817}
+  - component: {fileID: 8253660562873616599}
   m_Layer: 0
   m_Name: rock07 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4832048170856143704
 Transform:
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5207624178240618978}
-  m_LocalRotation: {x: -3.313876e-17, y: 0.9238798, z: 3.313876e-17, w: -0.38268277}
+  m_LocalRotation: {x: 0, y: -0.92387956, z: 0, w: 0.38268343}
   m_LocalPosition: {x: -1938.2297, y: -332.7353, z: -415.68463}
   m_LocalScale: {x: 40, y: 40, z: 40}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -135, z: 0}
 --- !u!33 &8404061741414864125
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -93,6 +94,25 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5842212413999709796, guid: 22a60fbc32394ad4fb2ca3a9152fe1d7, type: 3}
+--- !u!205 &8253660562873616599
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5207624178240618978}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.11501551, y: 1.5717373, z: -0.05128014}
+  m_Size: 3.6849005
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07919422
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6000429580365275191}
+  m_Enabled: 1

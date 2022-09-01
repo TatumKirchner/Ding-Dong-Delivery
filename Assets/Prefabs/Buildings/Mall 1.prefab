@@ -2488,6 +2488,7 @@ GameObject:
   - component: {fileID: 2331373822523257744}
   - component: {fileID: 1726408863737691189}
   - component: {fileID: 3463717809915906303}
+  - component: {fileID: 622911026651865286}
   m_Layer: 0
   m_Name: Mall 1
   m_TagString: Untagged
@@ -2559,6 +2560,98 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &622911026651865286
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3103372184258930986}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.062828064, y: 9.337078, z: 0.046539307}
+  m_Size: 88.40781
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.17693962
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3463717809915906303}
+    - renderer: {fileID: 7725286364909694298}
+    - renderer: {fileID: 6585868071128780575}
+    - renderer: {fileID: 5532431181204008222}
+    - renderer: {fileID: 2731610832486316014}
+    - renderer: {fileID: 3924144767482941464}
+    - renderer: {fileID: 2516629447734293850}
+    - renderer: {fileID: 6100922788577742073}
+    - renderer: {fileID: 3104928520974637787}
+    - renderer: {fileID: 5767399481536081904}
+    - renderer: {fileID: 4063452297010504350}
+    - renderer: {fileID: 890070895367846282}
+    - renderer: {fileID: 4258499852028713973}
+    - renderer: {fileID: 2810419344246552253}
+    - renderer: {fileID: 8801954999018495223}
+    - renderer: {fileID: 5094856464303959278}
+    - renderer: {fileID: 3186703322627317825}
+    - renderer: {fileID: 3826478986773419304}
+    - renderer: {fileID: 8168577326185315033}
+    - renderer: {fileID: 1688446094117020855}
+    - renderer: {fileID: 4022175451590566743}
+    - renderer: {fileID: 3840390078753242235}
+    - renderer: {fileID: 8581734402452090571}
+    - renderer: {fileID: 1430863054160789201}
+    - renderer: {fileID: 2190845158116886583}
+    - renderer: {fileID: 869354897470287133}
+    - renderer: {fileID: 4853101545964169432}
+    - renderer: {fileID: 5440154518037364132}
+    - renderer: {fileID: 9027901424432192399}
+    - renderer: {fileID: 3493068701536516976}
+    - renderer: {fileID: 2688007774923915386}
+    - renderer: {fileID: 1093188500143744530}
+    - renderer: {fileID: 1596527821719105952}
+    - renderer: {fileID: 4024255774457735974}
+    - renderer: {fileID: 4097454827326306679}
+    - renderer: {fileID: 8985831983480850344}
+    - renderer: {fileID: 8566448925484272794}
+    - renderer: {fileID: 8146366041956460287}
+    - renderer: {fileID: 344178650755624983}
+    - renderer: {fileID: 7338687561267774360}
+    - renderer: {fileID: 1040822185294973246}
+    - renderer: {fileID: 8391029489284761192}
+    - renderer: {fileID: 2506252345787281362}
+    - renderer: {fileID: 2201661268215476384}
+    - renderer: {fileID: 856086416658369098}
+    - renderer: {fileID: 7556698220386652955}
+    - renderer: {fileID: 2111946903086772301}
+    - renderer: {fileID: 694617123828281334}
+    - renderer: {fileID: 629386685154795469}
+    - renderer: {fileID: 5283491527100381501}
+    - renderer: {fileID: 8305954981079263136}
+    - renderer: {fileID: 7792750329257164145}
+    - renderer: {fileID: 5323574418257305713}
+    - renderer: {fileID: 7747071079934818426}
+    - renderer: {fileID: 5633798051729726312}
+    - renderer: {fileID: 756245481448574459}
+    - renderer: {fileID: 1822916369344739690}
+    - renderer: {fileID: 8072293376412469651}
+    - renderer: {fileID: 6108976419074567515}
+    - renderer: {fileID: 3930996255629989919}
+    - renderer: {fileID: 3775058400824451954}
+    - renderer: {fileID: 7278459943886367580}
+    - renderer: {fileID: 4819642779776857443}
+    - renderer: {fileID: 4396111400567226131}
+    - renderer: {fileID: 3290518955443616526}
+    - renderer: {fileID: 636167035692971524}
+    - renderer: {fileID: 6424008334694492384}
+    - renderer: {fileID: 970471731365658103}
+    - renderer: {fileID: 5095738311087400678}
+    - renderer: {fileID: 3748172448903524615}
+    - renderer: {fileID: 8924505551821121873}
+    - renderer: {fileID: 735494268751465283}
+    - renderer: {fileID: 2539834758053643767}
+    - renderer: {fileID: 5147925063135841409}
+  m_Enabled: 1
 --- !u!1 &3203986175205141809
 GameObject:
   m_ObjectHideFlags: 0

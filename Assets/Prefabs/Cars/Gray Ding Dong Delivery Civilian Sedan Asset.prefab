@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 92787008651839675}
-  - component: {fileID: 487264209597083474}
+  - component: {fileID: 2270894970557601084}
   m_Layer: 0
   m_Name: Gray Ding Dong Delivery Civilian Sedan Asset
   m_TagString: Untagged
@@ -36,32 +36,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &487264209597083474
-BoxCollider2D:
+--- !u!205 &2270894970557601084
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 721268522793472513}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_LocalReferencePoint: {x: -0.025415838, y: 0.897272, z: -1.2321842}
+  m_Size: 4.772076
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.025221912
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6731456489480282975}
+    - renderer: {fileID: 4183755689620099881}
+    - renderer: {fileID: 8704158978551224998}
+    - renderer: {fileID: 2671106589703998235}
+    - renderer: {fileID: 2003413197713658910}
+  m_Enabled: 1
 --- !u!1 &871717395898238982
 GameObject:
   m_ObjectHideFlags: 0

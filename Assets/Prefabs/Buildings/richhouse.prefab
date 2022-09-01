@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7110253490719677555
 Transform:
@@ -113,7 +113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6637843886869731047
 Transform:
@@ -202,12 +202,13 @@ GameObject:
   m_Component:
   - component: {fileID: 5930877413497099209}
   - component: {fileID: 6572957839085504743}
+  - component: {fileID: 8335949327140295219}
   m_Layer: 0
-  m_Name: Multiplex3 (5)
+  m_Name: richhouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5930877413497099209
 Transform:
@@ -218,7 +219,7 @@ Transform:
   m_GameObject: {fileID: 2016383130676113441}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2557.34, y: 34.499794, z: 2135.5}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 6637843886869731047}
   - {fileID: 290600217859794747}
@@ -240,6 +241,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!205 &8335949327140295219
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016383130676113441}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -88.1001, y: -51.32005, z: 14.000366}
+  m_Size: 87.39141
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.100239664
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3965643702957803514}
+    - renderer: {fileID: 1584839859108652371}
+    - renderer: {fileID: 1083410692500791259}
+  m_Enabled: 1
 --- !u!1 &7215377538582196936
 GameObject:
   m_ObjectHideFlags: 0
@@ -257,7 +279,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &290600217859794747
 Transform:

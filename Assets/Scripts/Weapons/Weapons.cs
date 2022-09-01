@@ -95,10 +95,8 @@ public class Weapons : MonoBehaviour
             anvilCount = Mathf.Clamp(anvilCount, 0, 99);
             fired = true;
         }
-        if (playerControls.Gameplay.Fire.ReadValue<float>() <= 0)
-        {
-            fired = false;
-        }
+
+        fired = false;
     }
 
     //Mouse Wheel input will change the weapon

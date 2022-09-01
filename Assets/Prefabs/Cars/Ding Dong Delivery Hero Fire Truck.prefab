@@ -266,6 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3800068199701431843}
+  - component: {fileID: 2319487651921609270}
   m_Layer: 0
   m_Name: Ding Dong Delivery Hero Fire Truck
   m_TagString: Untagged
@@ -280,7 +281,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4609255308660186265}
-  m_LocalRotation: {x: -0, y: 0.99988705, z: -0, w: -0.01502915}
+  m_LocalRotation: {x: 0, y: 0.9998871, z: -0, w: -0.015026716}
   m_LocalPosition: {x: -1313.77, y: -326.6253, z: -104.18005}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
@@ -292,6 +293,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 181.722, z: 0}
+--- !u!205 &2319487651921609270
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4609255308660186265}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40006065, y: 3.6410625, z: 0.0018761158}
+  m_Size: 10.757357
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.04561674
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8181874961820588847}
+    - renderer: {fileID: 2721847208136344445}
+    - renderer: {fileID: 7317115562564946669}
+    - renderer: {fileID: 2277737628525019776}
+    - renderer: {fileID: 1804260947165814497}
+  m_Enabled: 1
 --- !u!1 &5537507645864566669
 GameObject:
   m_ObjectHideFlags: 0

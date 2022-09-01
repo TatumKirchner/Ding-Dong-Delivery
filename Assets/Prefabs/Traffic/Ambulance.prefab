@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 3359148088815538960}
   - component: {fileID: 3359148088815538991}
   - component: {fileID: 8041636288793649807}
+  - component: {fileID: 1114765522303920556}
   m_Layer: 0
   m_Name: Ambulance
   m_TagString: Untagged
@@ -270,6 +271,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &1114765522303920556
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3359148088815538989}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.5293002, y: 1.4586442, z: -2.7073212}
+  m_Size: 19.98819
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.023442877
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 9204042251344656120}
+    - renderer: {fileID: 2840631023835478033}
+    - renderer: {fileID: 2449343939984041072}
+    - renderer: {fileID: 5295124296016208318}
+    - renderer: {fileID: 2103784721547246060}
+  m_Enabled: 1
 --- !u!1 &3359148088830561979
 GameObject:
   m_ObjectHideFlags: 0

@@ -461,6 +461,7 @@ GameObject:
   - component: {fileID: 3300695050321018070}
   - component: {fileID: 7805728332572874903}
   - component: {fileID: 2711865617483590017}
+  - component: {fileID: 2928192230454440802}
   m_Layer: 0
   m_Name: Barr_ell_o__Booze
   m_TagString: Untagged
@@ -546,6 +547,39 @@ CapsuleCollider:
   m_Height: 68.2
   m_Direction: 1
   m_Center: {x: 0, y: 0.124053, z: -0.00016689306}
+--- !u!205 &2928192230454440802
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2711865617483590018}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.000061035156, y: 0.12405205, z: -0.00016784668}
+  m_Size: 40.888264
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.06638542
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7805728332572874903}
+    - renderer: {fileID: 6886863943594114575}
+    - renderer: {fileID: 3551084311620030361}
+    - renderer: {fileID: 5187911038049946988}
+    - renderer: {fileID: 5295442362867304810}
+    - renderer: {fileID: 6093467010499754939}
+    - renderer: {fileID: 1952601407625129167}
+    - renderer: {fileID: 1657505596102862595}
+    - renderer: {fileID: 6100218639835880685}
+    - renderer: {fileID: 5248599392266469068}
+    - renderer: {fileID: 7189665323378059086}
+    - renderer: {fileID: 7373263551307730682}
+    - renderer: {fileID: 363862548287259288}
+    - renderer: {fileID: 63029757702334381}
+    - renderer: {fileID: 6944452293570916007}
+  m_Enabled: 1
 --- !u!1 &3170193070791974209
 GameObject:
   m_ObjectHideFlags: 0

@@ -1402,6 +1402,7 @@ GameObject:
   - component: {fileID: 3227344951079158523}
   - component: {fileID: 2577230338716187870}
   - component: {fileID: -5209774036883851506}
+  - component: {fileID: 3266995631431414897}
   m_Layer: 0
   m_Name: Blue Van
   m_TagString: Untagged
@@ -1517,6 +1518,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &3266995631431414897
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4448948516270482661}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.83864546, y: 3.7168956, z: 0.122117996}
+  m_Size: 14.487185
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.018221902
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4448948515732381138}
+    - renderer: {fileID: 6229771371842262212}
+    - renderer: {fileID: 9170887012510499461}
+    - renderer: {fileID: 8117763663506385710}
+    - renderer: {fileID: 4528281359750605115}
+    - renderer: {fileID: 2046279899020378230}
+    - renderer: {fileID: 1596289025308103774}
+    - renderer: {fileID: 1123123300042616154}
+    - renderer: {fileID: 1437348149831421265}
+    - renderer: {fileID: 1380203419814944168}
+    - renderer: {fileID: 4448453838116897899}
+    - renderer: {fileID: 4570283688394887826}
+    - renderer: {fileID: 280743680842683548}
+    - renderer: {fileID: 5812377140587947565}
+    - renderer: {fileID: 904321977071123291}
+    - renderer: {fileID: 3013872329996722933}
+    - renderer: {fileID: 8670412038075682450}
+    - renderer: {fileID: 5532142343592090555}
+    - renderer: {fileID: 7921862305490893541}
+    - renderer: {fileID: 6585088164951949359}
+    - renderer: {fileID: 717211588980171616}
+    - renderer: {fileID: 2968770563663993915}
+    - renderer: {fileID: 6808421873389641479}
+    - renderer: {fileID: 2470852761100591726}
+    - renderer: {fileID: 4861507178157070772}
+    - renderer: {fileID: 5035491189726086613}
+    - renderer: {fileID: 8732018801996798025}
+  m_Enabled: 1
 --- !u!1 &4448948516552931504
 GameObject:
   m_ObjectHideFlags: 0
@@ -3268,6 +3314,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 79364d531ccc4f54292947e463a7d080, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+--- !u!199 &4448948515732381138 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 19900000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+  m_PrefabInstance: {fileID: 4448948515746708402}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4448948515746570546 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
@@ -3341,5 +3392,10 @@ PrefabInstance:
 --- !u!4 &1928629035015620402 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2845724080870900619, guid: ad6d4613037bf124489e0a866ea0398a, type: 3}
+  m_PrefabInstance: {fileID: 4448948517851464889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!199 &6229771371842262212 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 7766825982581264509, guid: ad6d4613037bf124489e0a866ea0398a, type: 3}
   m_PrefabInstance: {fileID: 4448948517851464889}
   m_PrefabAsset: {fileID: 0}

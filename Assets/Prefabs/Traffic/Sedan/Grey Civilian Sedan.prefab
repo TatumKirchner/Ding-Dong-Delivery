@@ -1283,6 +1283,7 @@ GameObject:
   - component: {fileID: 6853260066925734215}
   - component: {fileID: 6853260066925734217}
   - component: {fileID: 1530646582271060812}
+  - component: {fileID: 3524817666195852702}
   m_Layer: 0
   m_Name: Grey Civilian Sedan
   m_TagString: Untagged
@@ -1399,6 +1400,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &3524817666195852702
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6853260066925734214}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.020581067, y: 0.89895856, z: -1.2322738}
+  m_Size: 4.7720814
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.014349675
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3404454616722736601}
+    - renderer: {fileID: 6687300797918402044}
+    - renderer: {fileID: 3742308864145346841}
+    - renderer: {fileID: 3711698647099558931}
+    - renderer: {fileID: 2337843612746557664}
+    - renderer: {fileID: 1083532272127373855}
+  m_Enabled: 1
 --- !u!1 &7352926623591972192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1568,5 +1593,10 @@ PrefabInstance:
 --- !u!4 &1083532272146796287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+  m_PrefabInstance: {fileID: 1083532272146928767}
+  m_PrefabAsset: {fileID: 0}
+--- !u!199 &1083532272127373855 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 19900000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
   m_PrefabInstance: {fileID: 1083532272146928767}
   m_PrefabAsset: {fileID: 0}

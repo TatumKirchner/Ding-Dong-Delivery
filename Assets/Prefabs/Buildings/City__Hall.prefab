@@ -1440,6 +1440,7 @@ GameObject:
   - component: {fileID: 6745326151123935993}
   - component: {fileID: 124424618327461358}
   - component: {fileID: 5606365971167544692}
+  - component: {fileID: 2285900562780559163}
   m_Layer: 0
   m_Name: City__Hall
   m_TagString: Untagged
@@ -1540,6 +1541,54 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 21.469013, y: 8.936554, z: 15.491624}
   m_Center: {x: 0, y: 2.1094303, z: 0.3139434}
+--- !u!205 &2285900562780559163
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4625238478848461702}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 2.0437574, z: 0.31406593}
+  m_Size: 21.46968
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.09862496
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 124424618327461358}
+    - renderer: {fileID: 8646359774378638882}
+    - renderer: {fileID: 7188826556542696793}
+    - renderer: {fileID: 8134233048463109586}
+    - renderer: {fileID: 1915916070079502266}
+    - renderer: {fileID: 4071533122218799200}
+    - renderer: {fileID: 3077723491364012451}
+    - renderer: {fileID: 3810279893451652264}
+    - renderer: {fileID: 5261632939260346402}
+    - renderer: {fileID: 2445966054387181091}
+    - renderer: {fileID: 2515914807044192600}
+    - renderer: {fileID: 2714897054832156575}
+    - renderer: {fileID: 941780023125904635}
+    - renderer: {fileID: 6888393721527663038}
+    - renderer: {fileID: 259521855567888704}
+    - renderer: {fileID: 9182862891523553819}
+    - renderer: {fileID: 7701799380693009127}
+    - renderer: {fileID: 5717286516577360595}
+    - renderer: {fileID: 427813521172234035}
+    - renderer: {fileID: 6838231604157424916}
+    - renderer: {fileID: 8235508021760950785}
+    - renderer: {fileID: 2702067716572369186}
+    - renderer: {fileID: 239166100743999303}
+    - renderer: {fileID: 2328606115444713844}
+    - renderer: {fileID: 5250529666936327895}
+    - renderer: {fileID: 9172624956073216250}
+    - renderer: {fileID: 8738379965096980148}
+    - renderer: {fileID: 8143253899964393206}
+    - renderer: {fileID: 7889261362138010569}
+    - renderer: {fileID: 2697232724147052672}
+  m_Enabled: 1
 --- !u!1 &5233189304816125873
 GameObject:
   m_ObjectHideFlags: 0

@@ -42,34 +42,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3424006395785778292, guid: f8766ae54309b9846a34b3f649d6f633, type: 3}
---- !u!64 &5995804093615536777
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5281065917638569004}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!64 &8208872215783737715
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5281065917638569004}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!64 &6093433957071723727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -93,11 +65,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 513559223509020667, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 2917421332980237759, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4078050237367910989, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -105,11 +77,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5280151197736616558, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_Name
-      value: lowpolyoaktree (32)
+      value: lowpolyoaktree (187)
       objectReference: {fileID: 0}
     - target: {fileID: 5280151197736616558, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5755144815275627183, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -121,15 +93,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6959766146978844774, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -247.36224
+      value: -996.5322
       objectReference: {fileID: 0}
     - target: {fileID: 6959766146978844774, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -74.39575
+      value: -74.315765
       objectReference: {fileID: 0}
     - target: {fileID: 6959766146978844774, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 243.86423
+      value: 404.66425
       objectReference: {fileID: 0}
     - target: {fileID: 6959766146978844774, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_LocalRotation.w
@@ -161,18 +133,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6996444443184958629, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5323078213028767873, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
     - {fileID: 8075112057744621369, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
     - {fileID: 5692005081434220662, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
---- !u!1 &5281065917638569004 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5280151197736616558, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}
-  m_PrefabInstance: {fileID: 3589842067074626}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6995389671244997351 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6996444443184958629, guid: 7ad8d38731564a8479b0b50b1148b3ba, type: 3}

@@ -873,7 +873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6307069472543077852}
-  - component: {fileID: 5768424175427293749}
+  - component: {fileID: 2539953601362168298}
   m_Layer: 0
   m_Name: SUV_gray
   m_TagString: Untagged
@@ -907,19 +907,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &5768424175427293749
-BoxCollider:
+--- !u!205 &2539953601362168298
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6686973432020840294}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalReferencePoint: {x: 0.4992789, y: 1.0477123, z: -0.02740407}
+  m_Size: 5.111479
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.028054751
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 645501484391933208}
+    - renderer: {fileID: 7877632162174006584}
+    - renderer: {fileID: 8696366032557995208}
+    - renderer: {fileID: 5532861151599806934}
+    - renderer: {fileID: 1884941421928070482}
+    - renderer: {fileID: 8994831487368967767}
+    - renderer: {fileID: 5580604640090894011}
+    - renderer: {fileID: 2754823723067199217}
+    - renderer: {fileID: 9033050648698008124}
+    - renderer: {fileID: 7323694576606836504}
+    - renderer: {fileID: 5509678169014805739}
+    - renderer: {fileID: 8464821257601317894}
+  m_Enabled: 1
 --- !u!1 &7022930043047272082
 GameObject:
   m_ObjectHideFlags: 0

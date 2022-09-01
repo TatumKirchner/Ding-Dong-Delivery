@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 4663693308978954024}
   - component: {fileID: 7447884040547240930}
   - component: {fileID: 4274409482823479719}
+  - component: {fileID: 5268968374222977440}
   m_Layer: 0
   m_Name: Construction_office (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8581362591731904653
 Transform:
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8961265383536405047}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 575.71, y: 6.84, z: 433.4}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
@@ -96,3 +97,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -5495902117074765545, guid: 8615559a6613752468c87d60e4449f38, type: 3}
+--- !u!205 &5268968374222977440
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8961265383536405047}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.9851928, y: 0.18167806, z: 0.475425}
+  m_Size: 6.693906
+  m_FadeMode: 2
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.028272284
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7447884040547240930}
+  m_Enabled: 1

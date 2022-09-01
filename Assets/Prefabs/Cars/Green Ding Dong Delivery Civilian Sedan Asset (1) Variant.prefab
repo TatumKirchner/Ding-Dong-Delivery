@@ -1,7 +1,7 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!64 &6853955309746877683
-MeshCollider:
+--- !u!65 &348977473
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10,24 +10,32 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8998640435352501542, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
---- !u!64 &1213821918
-MeshCollider:
+  serializedVersion: 2
+  m_Size: {x: 3.080094, y: 4.771931, z: 1.531622}
+  m_Center: {x: -0.026510773, y: -0.07467006, z: 0.010006307}
+--- !u!205 &8993083679013065578
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7652793863061532872}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.025474548, y: 0.8972682, z: -1.2322757}
+  m_Size: 4.7720757
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.018377906
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6986842265855098283}
+    - renderer: {fileID: 4471372661081701046}
+    - renderer: {fileID: 747804031921099364}
+    - renderer: {fileID: 5344864579977603577}
+    - renderer: {fileID: 3321787671198799723}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1001 &7418913652945669529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53,19 +61,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1114.1072
+      value: -1165.5262
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -326.8353
+      value: -326.6717
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -761.93207
+      value: -335.60846
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99999917
+      value: -0.0013303917
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalRotation.x
@@ -73,7 +81,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0013294518
+      value: 0.9999991
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalRotation.z
@@ -85,7 +93,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.152
+      value: 180.152
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -93,7 +101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
       propertyPath: m_Name
-      value: Green Ding Dong Delivery Civilian Sedan Asset (1) Variant (34)
+      value: Green Ding Dong Delivery Civilian Sedan Asset (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
@@ -102,8 +110,33 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
   m_PrefabInstance: {fileID: 7418913652945669529}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &6986842265855098283 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8790174708220481486, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
+  m_PrefabInstance: {fileID: 7418913652945669529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4471372661081701046 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6411092974200272687, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
+  m_PrefabInstance: {fileID: 7418913652945669529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &747804031921099364 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7824438546774384637, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
+  m_PrefabInstance: {fileID: 7418913652945669529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &5344864579977603577 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5991616347090541472, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
+  m_PrefabInstance: {fileID: 7418913652945669529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &7585456043261445014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1130881510341021199, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
+  m_PrefabInstance: {fileID: 7418913652945669529}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3321787671198799723 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -3968767619727828238, guid: 8b902a15a583a454390a59f4b76ae5fc, type: 3}
   m_PrefabInstance: {fileID: 7418913652945669529}
   m_PrefabAsset: {fileID: 0}

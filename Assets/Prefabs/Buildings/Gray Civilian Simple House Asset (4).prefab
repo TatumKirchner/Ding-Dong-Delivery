@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8904871160885840589}
   - component: {fileID: 6660967257321537031}
   - component: {fileID: 7720022484780669420}
+  - component: {fileID: 5860681935404375546}
   m_Layer: 0
   m_Name: Gray Civilian Simple House Asset (4)
   m_TagString: Untagged
@@ -97,3 +98,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4305866669524548251, guid: 22ca064f8880acd4d8c98a9cb0206d83, type: 3}
+--- !u!205 &5860681935404375546
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5147753040719634386}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.006193526, y: 0.004220644, z: 0.002630666}
+  m_Size: 0.035266105
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.1181166
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6660967257321537031}
+  m_Enabled: 1

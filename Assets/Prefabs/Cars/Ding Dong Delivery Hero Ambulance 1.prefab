@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 765603317604117263}
   - component: {fileID: 2072781336854224622}
+  - component: {fileID: 6958336927443757930}
   m_Layer: 0
   m_Name: Ding Dong Delivery Hero Ambulance 1
   m_TagString: Untagged
@@ -49,6 +50,29 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!205 &6958336927443757930
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131774843515777461}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 1.0856018, y: 1.4005518, z: -0.010938644}
+  m_Size: 9.994099
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.03415625
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8750479747075023173}
+    - renderer: {fileID: 5740029178656044547}
+    - renderer: {fileID: 2010439764947906129}
+    - renderer: {fileID: 2431754150105018284}
+    - renderer: {fileID: 2821909822264095693}
+  m_Enabled: 1
 --- !u!1 &2213945125309320614
 GameObject:
   m_ObjectHideFlags: 0

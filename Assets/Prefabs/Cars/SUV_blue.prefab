@@ -873,7 +873,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5904569506626739737}
-  - component: {fileID: 6231723853004569072}
+  - component: {fileID: 2280401468743138159}
   m_Layer: 0
   m_Name: SUV_blue
   m_TagString: Untagged
@@ -907,19 +907,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!65 &6231723853004569072
-BoxCollider:
+--- !u!205 &2280401468743138159
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6537799501986874531}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalReferencePoint: {x: 0.49931395, y: 1.0477046, z: -0.027480721}
+  m_Size: 5.111519
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.020823345
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4650040106491206471}
+    - renderer: {fileID: 2724948098675737861}
+    - renderer: {fileID: 6731713841112091137}
+    - renderer: {fileID: 7005890776047371191}
+    - renderer: {fileID: 7540782059384036256}
+    - renderer: {fileID: 8955327112610105051}
+    - renderer: {fileID: 3913099963616263420}
+    - renderer: {fileID: 1169731296155092137}
+    - renderer: {fileID: 5559985702917454659}
+    - renderer: {fileID: 368756104187760098}
+    - renderer: {fileID: 2698180564306811553}
+    - renderer: {fileID: 4339968957408500554}
+  m_Enabled: 1
 --- !u!1 &7563770356333313514
 GameObject:
   m_ObjectHideFlags: 0

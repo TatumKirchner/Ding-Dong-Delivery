@@ -113,6 +113,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2108970149516931444}
+  - component: {fileID: 2672830200431978614}
   m_Layer: 0
   m_Name: Mansion4
   m_TagString: Untagged
@@ -135,3 +136,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &2672830200431978614
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589561219036720078}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 7.8361588, y: 6.568721, z: 6.4586353}
+  m_Size: 15.743738
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.067310944
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2724233314602303568}
+  m_Enabled: 1

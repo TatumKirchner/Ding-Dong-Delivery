@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 970884114325318601}
   - component: {fileID: 6208685359007988974}
   - component: {fileID: 8827312137417410550}
+  - component: {fileID: 3646241970608888185}
   m_Layer: 0
   m_Name: Trash_Bag
   m_TagString: TrashBag
@@ -225,3 +226,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!205 &3646241970608888185
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970884114325318600}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.000030517578, y: 0.1236915, z: -0.000015258789}
+  m_Size: 0.771384
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.013627441
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1901635094740838485}
+  m_Enabled: 1

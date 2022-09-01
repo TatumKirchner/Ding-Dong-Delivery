@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 862472671262652002}
   - component: {fileID: 9176374349962853774}
   - component: {fileID: 3470339935841780429}
+  - component: {fileID: 2142298106928005883}
   m_Layer: 0
   m_Name: Recycling_Can
   m_TagString: TrashBag
@@ -306,3 +307,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!205 &2142298106928005883
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6361590146682077031}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0015869141, y: -0.31106204, z: 0.07084721}
+  m_Size: 1.2387011
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.01223518
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 0}
+    - renderer: {fileID: 0}
+  m_Enabled: 1

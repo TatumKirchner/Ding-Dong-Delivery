@@ -9,12 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1105971638505533005}
+  - component: {fileID: 9179355188875162919}
   m_Layer: 0
   m_Name: Ding Dong Delivery Hero Fire Truck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1105971638505533005
 Transform:
@@ -35,6 +36,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 181.722, z: 0}
+--- !u!205 &9179355188875162919
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293547566844818679}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40004635, y: 3.641071, z: 0.0019955635}
+  m_Size: 10.757349
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.03415625
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5363335605051437889}
+    - renderer: {fileID: 2170822026974604051}
+    - renderer: {fileID: 6804415028240556675}
+    - renderer: {fileID: 2628300025758182126}
+    - renderer: {fileID: 2517436845296236175}
+  m_Enabled: 1
 --- !u!1 &1981381722501351652
 GameObject:
   m_ObjectHideFlags: 0
@@ -51,7 +75,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7607207495571191400
 Transform:
@@ -94,7 +118,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6838485408244367104, guid: 79533dfec4edcea4fb2d9d76871114c5, type: 3}
+  - {fileID: 2100000, guid: 6855ee32fe252294aaaa2266ca7a9706, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -132,7 +156,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2737206390755557631
 Transform:
@@ -175,7 +199,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6838485408244367104, guid: 79533dfec4edcea4fb2d9d76871114c5, type: 3}
+  - {fileID: 2100000, guid: 6855ee32fe252294aaaa2266ca7a9706, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -214,7 +238,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6974211757313513865
 Transform:
@@ -257,7 +281,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6838485408244367104, guid: 79533dfec4edcea4fb2d9d76871114c5, type: 3}
+  - {fileID: 2100000, guid: 6855ee32fe252294aaaa2266ca7a9706, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -308,7 +332,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2067355144927785578
 Transform:
@@ -351,7 +375,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6838485408244367104, guid: 79533dfec4edcea4fb2d9d76871114c5, type: 3}
+  - {fileID: 2100000, guid: 6855ee32fe252294aaaa2266ca7a9706, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -389,7 +413,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6973077739762988985
 Transform:
@@ -432,7 +456,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 6838485408244367104, guid: 79533dfec4edcea4fb2d9d76871114c5, type: 3}
+  - {fileID: 2100000, guid: 6855ee32fe252294aaaa2266ca7a9706, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -1050,6 +1050,7 @@ GameObject:
   - component: {fileID: 2088357204598372810}
   - component: {fileID: 6593614594582540641}
   - component: {fileID: 2337260190809019817}
+  - component: {fileID: 139913282825816630}
   m_Layer: 0
   m_Name: West_Hospital
   m_TagString: Untagged
@@ -1135,6 +1136,64 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4684530257723409550, guid: 8243ee810e0835a45b466cd92f9f4e2a, type: 3}
+--- !u!205 &139913282825816630
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207525076441162702}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.000031471252, y: 9.001595, z: -1.187423}
+  m_Size: 28.272219
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.0694832
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6593614594582540641}
+    - renderer: {fileID: 8442549286442783711}
+    - renderer: {fileID: 1330463638880518561}
+    - renderer: {fileID: 332308624007349274}
+    - renderer: {fileID: 6219275493393342236}
+    - renderer: {fileID: 8738301455327909108}
+    - renderer: {fileID: 8012105164211437955}
+    - renderer: {fileID: 565739818776762095}
+    - renderer: {fileID: 5647808405551852459}
+    - renderer: {fileID: 1124751538911959693}
+    - renderer: {fileID: 6704127481821897438}
+    - renderer: {fileID: 3615483403330609571}
+    - renderer: {fileID: 1585439390176146539}
+    - renderer: {fileID: 320998236761142476}
+    - renderer: {fileID: 2203324076107604480}
+    - renderer: {fileID: 6386546633084792511}
+    - renderer: {fileID: 4328527984477433556}
+    - renderer: {fileID: 6607563870166939382}
+    - renderer: {fileID: 1481593235210798666}
+    - renderer: {fileID: 2580009802868298149}
+    - renderer: {fileID: 4179895300496247188}
+    - renderer: {fileID: 863369803936152693}
+    - renderer: {fileID: 8322264179020886323}
+    - renderer: {fileID: 5825413973215646252}
+    - renderer: {fileID: 1630550026878129924}
+    - renderer: {fileID: 7094203944410252527}
+    - renderer: {fileID: 7948863971725919223}
+    - renderer: {fileID: 303513161128743825}
+    - renderer: {fileID: 9207371180398520382}
+    - renderer: {fileID: 8653564484420072159}
+    - renderer: {fileID: 8515929020804037879}
+    - renderer: {fileID: 1620509943937282584}
+    - renderer: {fileID: 7533352568608920526}
+    - renderer: {fileID: 5820073024268701171}
+    - renderer: {fileID: 9191451710518472749}
+    - renderer: {fileID: 8435451928095691654}
+    - renderer: {fileID: 8568012873598755919}
+    - renderer: {fileID: 2518209711067049182}
+    - renderer: {fileID: 684497345521219091}
+    - renderer: {fileID: 3286208331266450272}
+  m_Enabled: 1
 --- !u!1 &3376495484986545305
 GameObject:
   m_ObjectHideFlags: 0

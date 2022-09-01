@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 121801975162646050}
   - component: {fileID: 2898994801961164984}
   - component: {fileID: 2972396485606411681}
+  - component: {fileID: 6409694882224352923}
   m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8751052947069327463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -11.429984, y: 0.20575956, z: -0.47288424}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.133683, y: 4.133683, z: 4.133683}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -96,3 +97,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.85707814, y: 0.4219637, z: 0.7422515}
   m_Center: {x: 0, y: -0.19909102, z: 0}
+--- !u!205 &6409694882224352923
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8751052947069327463}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: -0.19909626, z: 0}
+  m_Size: 0.8571043
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.027271593
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2898994801961164984}
+  m_Enabled: 1

@@ -11,13 +11,14 @@ GameObject:
   - component: {fileID: 4564928895895629053}
   - component: {fileID: 6508268214312574990}
   - component: {fileID: 7724497133147901347}
-  - component: {fileID: 6497970925454694650}
+  - component: {fileID: 732683990650436719}
+  - component: {fileID: 5857850774205575984}
   m_Layer: 0
   m_Name: Fire_hydrant
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4564928895895629053
 Transform:
@@ -26,7 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6497970925454694651}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -292.72574, y: 2.67, z: 473.11337}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
@@ -49,7 +50,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6497970925454694651}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -83,8 +84,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6497970925454694650
-MeshCollider:
+--- !u!205 &732683990650436719
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6497970925454694651}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.044427544, y: -0.19945821, z: -0.07015282}
+  m_Size: 0.95951587
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.007362267
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7724497133147901347}
+  m_Enabled: 1
+--- !u!65 &5857850774205575984
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -93,7 +113,6 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2731430005317150451, guid: d475f40b46038ae40885fab4d3f2a23e, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.6684279, y: 0.95951587, z: 0.71987844}
+  m_Center: {x: 0.044442818, y: -0.19945821, z: -0.070142366}

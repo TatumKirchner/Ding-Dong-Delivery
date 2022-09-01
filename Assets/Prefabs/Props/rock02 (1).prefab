@@ -11,9 +11,28 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5458510073744580977, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
+--- !u!205 &111610154260828838
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7775655178163412575}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.014249563, y: 1.571738, z: -0.7162864}
+  m_Size: 3.6849203
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07919422
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8135842198545825674}
+  m_Enabled: 1
 --- !u!1001 &7433689255460102926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39,15 +58,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1922.2297
+      value: -1281.8999
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -328.13528
+      value: -450.40234
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -277.58466
+      value: -334.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -83,12 +102,21 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5a1b2dda85b941846beb92822258b459, type: 2}
     - target: {fileID: 919132149155446097, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
       propertyPath: m_Name
-      value: rock02 (1)
+      value: rock02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
 --- !u!1 &7775655178163412575 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
+  m_PrefabInstance: {fileID: 7433689255460102926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8135842198545825674 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 308ca9f633a95774da00d22a2c46168d, type: 3}
   m_PrefabInstance: {fileID: 7433689255460102926}
   m_PrefabAsset: {fileID: 0}

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4239548755035995126}
   - component: {fileID: 6699055230920974055}
   - component: {fileID: 5657086555365451271}
+  - component: {fileID: 4200409187006034303}
   m_Layer: 0
   m_Name: Skyscraper_1
   m_TagString: Untagged
@@ -96,3 +97,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4114618331377391638, guid: 8243ee810e0835a45b466cd92f9f4e2a, type: 3}
+--- !u!205 &4200409187006034303
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8445932354709228442}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.071785, z: -0.000030517578}
+  m_Size: 40.74567
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.086016305
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6699055230920974055}
+  m_Enabled: 1

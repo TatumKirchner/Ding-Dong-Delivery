@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6948846857365626883
 Transform:
@@ -113,7 +113,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7770559707222303161
 Transform:
@@ -209,7 +209,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2911250072694310230
 Transform:
@@ -297,13 +297,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4926091316606934978}
-  - component: {fileID: 4888169824645249071}
+  - component: {fileID: 2834855953455743256}
   m_Layer: 0
   m_Name: Blue Ding Dong Delivery Civilian Sedan Asset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4926091316606934978
 Transform:
@@ -312,7 +312,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5699073741314475384}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1090.4398, y: -326.7353, z: -759.58466}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
@@ -324,19 +324,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &4888169824645249071
-BoxCollider:
+--- !u!205 &2834855953455743256
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5699073741314475384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalReferencePoint: {x: -0.025492013, y: 0.8972795, z: -1.2321842}
+  m_Size: 4.772076
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.02167078
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2562016741137768493}
+    - renderer: {fileID: 3494008839216858334}
+    - renderer: {fileID: 5531148506865662402}
+    - renderer: {fileID: 2586153545105014055}
+    - renderer: {fileID: 4554137065943902695}
+  m_Enabled: 1
 --- !u!1 &6776836005959781560
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +364,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &5589301443915968405
 Transform:
@@ -450,7 +460,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3488711720943252527
 Transform:

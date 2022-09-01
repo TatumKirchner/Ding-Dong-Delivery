@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5366139119724774326}
   - component: {fileID: 2390574365342178108}
   - component: {fileID: 7109517677622064853}
-  - component: {fileID: 2727422235722491472}
   m_Layer: 0
   m_Name: Van_Body.025
   m_TagString: Untagged
@@ -82,20 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235722491472
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 461440765507751886}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7318341917705289517, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &1272641183604690626
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,7 +92,6 @@ GameObject:
   - component: {fileID: 5168779649252276411}
   - component: {fileID: 5266617320016979866}
   - component: {fileID: 623485579975610805}
-  - component: {fileID: 2727422236997602731}
   m_Layer: 0
   m_Name: Van_Body.021
   m_TagString: Untagged
@@ -178,20 +162,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236997602731
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272641183604690626}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5451606856248714877, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &1538249653160943641
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,7 +173,6 @@ GameObject:
   - component: {fileID: 3321831566735658592}
   - component: {fileID: 1547138114784472362}
   - component: {fileID: 887698003212362686}
-  - component: {fileID: 2727422235359642221}
   m_Layer: 0
   m_Name: Van_Body.022
   m_TagString: Untagged
@@ -274,20 +243,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235359642221
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1538249653160943641}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6813818074284495821, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &1546444385906679099
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +254,6 @@ GameObject:
   - component: {fileID: 6169171985258703137}
   - component: {fileID: 4967264763285333098}
   - component: {fileID: 1460819922942563567}
-  - component: {fileID: 2727422236969186177}
   m_Layer: 0
   m_Name: Van_Body.008
   m_TagString: Untagged
@@ -370,20 +324,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236969186177
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1546444385906679099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6466379248847642766, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &2748380513094246257
 GameObject:
   m_ObjectHideFlags: 0
@@ -395,7 +335,6 @@ GameObject:
   - component: {fileID: 6978166374679387563}
   - component: {fileID: 8218964753014273340}
   - component: {fileID: 5554925967823588163}
-  - component: {fileID: 2727422235705835346}
   m_Layer: 0
   m_Name: Van_Body.014
   m_TagString: Untagged
@@ -466,20 +405,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235705835346
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2748380513094246257}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8789642438574206110, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &2958764488462827870
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +416,6 @@ GameObject:
   - component: {fileID: 3077378566243528940}
   - component: {fileID: 2504343768506828690}
   - component: {fileID: 4172309482778640928}
-  - component: {fileID: 2727422236636301291}
   m_Layer: 0
   m_Name: Van_Body.023
   m_TagString: Untagged
@@ -562,20 +486,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236636301291
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2958764488462827870}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6543582893614106525, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &2961303411198691621
 GameObject:
   m_ObjectHideFlags: 0
@@ -585,7 +495,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2473454141529576351}
-  - component: {fileID: 2727422235788424314}
+  - component: {fileID: 6383307840717375785}
   m_Layer: 0
   m_Name: Gray Ding Dong Delivery Civillian Van
   m_TagString: Untagged
@@ -600,7 +510,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2961303411198691621}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -1129.2698, y: -326.72528, z: -716.7946}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
@@ -632,19 +542,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &2727422235788424314
-BoxCollider:
+--- !u!205 &6383307840717375785
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2961303411198691621}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_LocalReferencePoint: {x: -0.06105876, y: 1.574444, z: -0.41941786}
+  m_Size: 7.2435946
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.04561674
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1807477850101729293}
+    - renderer: {fileID: 5303289131376147753}
+    - renderer: {fileID: 6616278631296696706}
+    - renderer: {fileID: 435566513427255359}
+    - renderer: {fileID: 6858225016198961453}
+    - renderer: {fileID: 5805769694550977914}
+    - renderer: {fileID: 6107660001793318707}
+    - renderer: {fileID: 1460819922942563567}
+    - renderer: {fileID: 2949627970897380988}
+    - renderer: {fileID: 501438678462123313}
+    - renderer: {fileID: 5554925967823588163}
+    - renderer: {fileID: 3986656397018061198}
+    - renderer: {fileID: 2559431080496507180}
+    - renderer: {fileID: 2791545717165285758}
+    - renderer: {fileID: 1190438744319432768}
+    - renderer: {fileID: 623485579975610805}
+    - renderer: {fileID: 887698003212362686}
+    - renderer: {fileID: 4172309482778640928}
+    - renderer: {fileID: 1980126447059349798}
+    - renderer: {fileID: 7109517677622064853}
+    - renderer: {fileID: 278264199951700367}
+    - renderer: {fileID: 1399112542867476023}
+    - renderer: {fileID: 5108899116793508103}
+    - renderer: {fileID: 2993647001473053897}
+    - renderer: {fileID: 6843841579186020503}
+  m_Enabled: 1
 --- !u!1 &3230133360665644925
 GameObject:
   m_ObjectHideFlags: 0
@@ -656,7 +596,6 @@ GameObject:
   - component: {fileID: 1996015111278252053}
   - component: {fileID: 3203969977792496962}
   - component: {fileID: 5805769694550977914}
-  - component: {fileID: 2727422235198452910}
   m_Layer: 0
   m_Name: Van_Body.006
   m_TagString: Untagged
@@ -727,20 +666,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235198452910
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3230133360665644925}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7887449022988755281, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &3230483645522566494
 GameObject:
   m_ObjectHideFlags: 0
@@ -752,7 +677,6 @@ GameObject:
   - component: {fileID: 8468009074196126195}
   - component: {fileID: 5678526215066286170}
   - component: {fileID: 501438678462123313}
-  - component: {fileID: 2727422237161253900}
   m_Layer: 0
   m_Name: Van_Body.010
   m_TagString: Untagged
@@ -823,20 +747,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422237161253900
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3230483645522566494}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5051116123934225881, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &3387316596822971170
 GameObject:
   m_ObjectHideFlags: 0
@@ -848,7 +758,6 @@ GameObject:
   - component: {fileID: 898886995398309290}
   - component: {fileID: 1370753689847569060}
   - component: {fileID: 1807477850101729293}
-  - component: {fileID: 2727422235224213224}
   m_Layer: 0
   m_Name: Back_Right_Tire.001
   m_TagString: Untagged
@@ -919,20 +828,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235224213224
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3387316596822971170}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 517055918507045517, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &3983072214659998241
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +839,6 @@ GameObject:
   - component: {fileID: 4587983894184138184}
   - component: {fileID: 7350039109009846689}
   - component: {fileID: 6107660001793318707}
-  - component: {fileID: 2727422235400241481}
   m_Layer: 0
   m_Name: Van_Body.007
   m_TagString: Untagged
@@ -1015,20 +909,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235400241481
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3983072214659998241}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2294408232539263764, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &4451919663653120056
 GameObject:
   m_ObjectHideFlags: 0
@@ -1040,7 +920,6 @@ GameObject:
   - component: {fileID: 6387511052735608226}
   - component: {fileID: 3581967573789678666}
   - component: {fileID: 6616278631296696706}
-  - component: {fileID: 2727422235758106411}
   m_Layer: 0
   m_Name: Front_Left_Tire.001
   m_TagString: Untagged
@@ -1111,20 +990,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235758106411
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4451919663653120056}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -959553425427547488, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &4768536146198596151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,7 +1001,6 @@ GameObject:
   - component: {fileID: 4342402208057198377}
   - component: {fileID: 8451299937147460083}
   - component: {fileID: 6843841579186020503}
-  - component: {fileID: 2727422236750381122}
   m_Layer: 0
   m_Name: Van_Body.035
   m_TagString: Untagged
@@ -1207,20 +1071,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236750381122
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4768536146198596151}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3636653496643617064, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &4933958900438180724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,7 +1082,6 @@ GameObject:
   - component: {fileID: 5974174287475862726}
   - component: {fileID: 2180703368015097453}
   - component: {fileID: 1190438744319432768}
-  - component: {fileID: 2727422236558798006}
   m_Layer: 0
   m_Name: Van_Body.018
   m_TagString: Untagged
@@ -1303,20 +1152,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236558798006
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4933958900438180724}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8222894741537772067, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &6451855078271100908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,7 +1163,6 @@ GameObject:
   - component: {fileID: 5244771284071019192}
   - component: {fileID: 6317705412040997971}
   - component: {fileID: 3986656397018061198}
-  - component: {fileID: 2727422236751576355}
   m_Layer: 0
   m_Name: Van_Body.015
   m_TagString: Untagged
@@ -1399,20 +1233,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236751576355
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6451855078271100908}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3647258505204842532, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &6715616986713093416
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,7 +1244,6 @@ GameObject:
   - component: {fileID: 2718448883080542238}
   - component: {fileID: 638143792025000960}
   - component: {fileID: 2993647001473053897}
-  - component: {fileID: 2727422236945874224}
   m_Layer: 0
   m_Name: Van_Body.033
   m_TagString: Untagged
@@ -1495,20 +1314,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236945874224
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6715616986713093416}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3933939556475882967, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &7072600917747721942
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,7 +1325,6 @@ GameObject:
   - component: {fileID: 110747165573704311}
   - component: {fileID: 8264266275398646427}
   - component: {fileID: 278264199951700367}
-  - component: {fileID: 2727422236654880579}
   m_Layer: 0
   m_Name: Van_Body.026
   m_TagString: Untagged
@@ -1591,20 +1395,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236654880579
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7072600917747721942}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 690988610426556304, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &7362736632498953018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,7 +1406,6 @@ GameObject:
   - component: {fileID: 5414945311511896692}
   - component: {fileID: 1667886298159210885}
   - component: {fileID: 5303289131376147753}
-  - component: {fileID: 2727422236394618108}
   m_Layer: 0
   m_Name: Back_Right_Tire_2.001
   m_TagString: Untagged
@@ -1687,20 +1476,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236394618108
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7362736632498953018}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6603014581980260109, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &7592573139580827683
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,7 +1487,6 @@ GameObject:
   - component: {fileID: 1800109690209670741}
   - component: {fileID: 6828260754878826375}
   - component: {fileID: 2791545717165285758}
-  - component: {fileID: 2727422235523555258}
   m_Layer: 0
   m_Name: Van_Body.017
   m_TagString: Untagged
@@ -1783,20 +1557,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235523555258
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7592573139580827683}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4137212808010296265, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &7734594470221874037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1808,7 +1568,6 @@ GameObject:
   - component: {fileID: 1965721860956043512}
   - component: {fileID: 2042126524787429573}
   - component: {fileID: 1980126447059349798}
-  - component: {fileID: 2727422236198513419}
   m_Layer: 0
   m_Name: Van_Body.024
   m_TagString: Untagged
@@ -1879,20 +1638,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236198513419
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7734594470221874037}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8113215656520558250, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &7794343966952742950
 GameObject:
   m_ObjectHideFlags: 0
@@ -1904,7 +1649,6 @@ GameObject:
   - component: {fileID: 8977278102109005885}
   - component: {fileID: 2612311109290698932}
   - component: {fileID: 2949627970897380988}
-  - component: {fileID: 2727422235801702237}
   m_Layer: 0
   m_Name: Van_Body.009
   m_TagString: Untagged
@@ -1975,20 +1719,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235801702237
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7794343966952742950}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8999535076023634578, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &8321402997405636112
 GameObject:
   m_ObjectHideFlags: 0
@@ -2000,7 +1730,7 @@ GameObject:
   - component: {fileID: 2654263936326215422}
   - component: {fileID: 8960894828854939508}
   - component: {fileID: 5108899116793508103}
-  - component: {fileID: 2727422235957720164}
+  - component: {fileID: 6242639982594387907}
   m_Layer: 0
   m_Name: Van_Body.032
   m_TagString: Untagged
@@ -2071,8 +1801,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235957720164
-MeshCollider:
+--- !u!65 &6242639982594387907
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2081,10 +1811,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6737109987037914810, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 0.07111035, y: 0.031960204, z: 0.03009587}
+  m_Center: {x: -0.0015901964, y: -0.0000022193417, z: -0.00028514065}
 --- !u!1 &8371009672168396358
 GameObject:
   m_ObjectHideFlags: 0
@@ -2096,7 +1825,6 @@ GameObject:
   - component: {fileID: 3849942101394299777}
   - component: {fileID: 3994252412732477108}
   - component: {fileID: 2559431080496507180}
-  - component: {fileID: 2727422235130118170}
   m_Layer: 0
   m_Name: Van_Body.016
   m_TagString: Untagged
@@ -2167,20 +1895,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235130118170
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8371009672168396358}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1032716443709434559, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &8390279555991045890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,7 +1906,6 @@ GameObject:
   - component: {fileID: 8283621342024847815}
   - component: {fileID: 5433203493166539534}
   - component: {fileID: 435566513427255359}
-  - component: {fileID: 2727422235745874069}
   m_Layer: 0
   m_Name: Front_Right_Tire.001
   m_TagString: Untagged
@@ -2263,20 +1976,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422235745874069
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8390279555991045890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2050708012272862487, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &8773919666379044099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +1987,6 @@ GameObject:
   - component: {fileID: 5525094572204886878}
   - component: {fileID: 4869160632791894466}
   - component: {fileID: 1399112542867476023}
-  - component: {fileID: 2727422236801254797}
   m_Layer: 0
   m_Name: Van_Body.031
   m_TagString: Untagged
@@ -2359,20 +2057,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236801254797
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8773919666379044099}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1613116840850296432, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}
 --- !u!1 &9106337143699126087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2068,6 @@ GameObject:
   - component: {fileID: 4662582517226333358}
   - component: {fileID: 983251797600385470}
   - component: {fileID: 6858225016198961453}
-  - component: {fileID: 2727422236161826379}
   m_Layer: 0
   m_Name: Van_Body.005
   m_TagString: Untagged
@@ -2455,17 +2138,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2727422236161826379
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9106337143699126087}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -4152810735607299760, guid: b6910bef80b154a4d810e36574b0f8a4, type: 3}

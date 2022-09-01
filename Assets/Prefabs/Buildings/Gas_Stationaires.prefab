@@ -960,6 +960,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3548102893985226975}
+  - component: {fileID: 8743094506216335067}
   m_Layer: 0
   m_Name: Gas_Stationaires
   m_TagString: Untagged
@@ -985,6 +986,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!205 &8743094506216335067
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4212752843380505189}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -6.11499, y: 1.3731723, z: -4.429817}
+  m_Size: 18.000553
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.05326782
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 10757141516040169}
+    - renderer: {fileID: 4339680254526792193}
+    - renderer: {fileID: 70649900993363913}
+    - renderer: {fileID: 5778768771697345733}
+    - renderer: {fileID: 1603596203750922647}
+    - renderer: {fileID: 6829405173333873721}
+    - renderer: {fileID: 5202159823683502928}
+    - renderer: {fileID: 8859326394966321277}
+    - renderer: {fileID: 1329730906330966454}
+    - renderer: {fileID: 3085244727063595357}
+    - renderer: {fileID: 4920560175744522268}
+    - renderer: {fileID: 1713013393789925243}
+    - renderer: {fileID: 6777057800155196171}
+    - renderer: {fileID: 1129525383250174202}
+    - renderer: {fileID: 7691570729863128758}
+    - renderer: {fileID: 3953925228500072726}
+    - renderer: {fileID: 2885629726595766062}
+  m_Enabled: 1
 --- !u!1 &4228047108066218810
 GameObject:
   m_ObjectHideFlags: 0

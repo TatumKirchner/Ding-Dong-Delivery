@@ -626,6 +626,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2295999163886796671}
+  - component: {fileID: 8065046104372387271}
   m_Layer: 0
   m_Name: Sake_Sushi
   m_TagString: Untagged
@@ -652,6 +653,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &8065046104372387271
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3035937163626068325}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 2.2027698, y: 1.1423693, z: -1.3034495}
+  m_Size: 13.077195
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.08296823
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7319707609618291895}
+    - renderer: {fileID: 2606967468625489460}
+    - renderer: {fileID: 1648969672350667604}
+    - renderer: {fileID: 3783044052137534487}
+    - renderer: {fileID: 2374939878308072858}
+    - renderer: {fileID: 8091337101205997557}
+    - renderer: {fileID: 2368156240704461003}
+    - renderer: {fileID: 6153833305881072095}
+    - renderer: {fileID: 3007976406233481153}
+    - renderer: {fileID: 3662548866176253501}
+    - renderer: {fileID: 1097987555992706286}
+    - renderer: {fileID: 7492297200499406355}
+    - renderer: {fileID: 987284814616716052}
+  m_Enabled: 1
 --- !u!1 &4987106236373687395
 GameObject:
   m_ObjectHideFlags: 0

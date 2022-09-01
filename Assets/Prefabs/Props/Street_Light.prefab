@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 4703224352870315694}
   - component: {fileID: 5092085499219679041}
   - component: {fileID: 768965589600464432}
+  - component: {fileID: 2232369933541690617}
   m_Layer: 0
   m_Name: Street_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4785918799819374796
 Transform:
@@ -97,3 +98,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 2078136162990195543, guid: f67e5f6c6d53a3642bdc215ff8343b3d, type: 3}
+--- !u!205 &2232369933541690617
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768965589600464438}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: -0.98418903, z: 0.0000076293945}
+  m_Size: 3.4571347
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.100495815
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5092085499219679041}
+  m_Enabled: 1

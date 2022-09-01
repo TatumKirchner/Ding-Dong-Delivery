@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1538149362779488138}
   - component: {fileID: 5964331917710116482}
   - component: {fileID: 8380301403979102983}
+  - component: {fileID: 8523176952925760533}
   m_Layer: 0
   m_Name: fence (18)
   m_TagString: Fence
@@ -155,3 +156,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02031483, y: 1.6907469, z: 0.0029512595}
   m_Center: {x: 0.0000053714043, y: -0.00881985, z: 0.0007807206}
+--- !u!205 &8523176952925760533
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3105027928397191855}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0000054864213, y: -0.008835077, z: 0.00078095903}
+  m_Size: 1.6907979
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.99310905
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6344544222455159359}
+  m_Enabled: 1

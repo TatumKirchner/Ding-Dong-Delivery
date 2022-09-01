@@ -105,7 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3322334542004418370}
-  - component: {fileID: 2995444421359800491}
+  - component: {fileID: 5290367313878668062}
   m_Layer: 0
   m_Name: Green Ding Dong Delivery Civilian Sedan Asset
   m_TagString: Untagged
@@ -132,20 +132,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!64 &2995444421359800491
-MeshCollider:
+--- !u!205 &5290367313878668062
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2688821623475056120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.025342762, y: 0.89726734, z: -1.2322757}
+  m_Size: 4.772076
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.024309916
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3428068865697292443}
+    - renderer: {fileID: 8172119911764993926}
+    - renderer: {fileID: 4973110555961184084}
+    - renderer: {fileID: 380682234885911753}
+    - renderer: {fileID: 7025032901706074715}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2747273190915743398
 GameObject:
   m_ObjectHideFlags: 0

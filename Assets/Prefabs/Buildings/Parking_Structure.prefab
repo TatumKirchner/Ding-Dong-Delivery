@@ -10,12 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 6832097580818017504}
   - component: {fileID: 4551096697592185202}
+  - component: {fileID: 1480320416728860830}
   m_Layer: 0
   m_Name: Parking_Structure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &6832097580818017504
 Transform:
@@ -46,6 +47,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!205 &1480320416728860830
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6168713375129204314}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 6.5009475, z: 38.809998}
+  m_Size: 24.50438
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.051952288
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7405852538401860675}
+  m_Enabled: 1
 --- !u!1 &8871900883654718574
 GameObject:
   m_ObjectHideFlags: 0
@@ -57,12 +77,13 @@ GameObject:
   - component: {fileID: 8585380556422879622}
   - component: {fileID: 4508180155375459110}
   - component: {fileID: 7405852538401860675}
+  - component: {fileID: 226503635}
   m_Layer: 0
   m_Name: Cube_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8585380556422879622
 Transform:
@@ -127,3 +148,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &226503635
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8871900883654718574}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6525949916285243375, guid: 895fc8383da47a84ba410f18c36d6d37, type: 3}

@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2785756751972908204, guid: 34da6c768990cbc4bb8771b9ccc32035, type: 3}
       propertyPath: m_Name
-      value: Gray Ding Dong Delivery Civillian Van (3)
+      value: Gray Ding Dong Delivery Civillian Van (3) Variant 1
       objectReference: {fileID: 0}
     - target: {fileID: 3306538971584914966, guid: 34da6c768990cbc4bb8771b9ccc32035, type: 3}
       propertyPath: m_RootOrder
@@ -55,5 +55,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1091537111, guid: 34da6c768990cbc4bb8771b9ccc32035, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 34da6c768990cbc4bb8771b9ccc32035, type: 3}

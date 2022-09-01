@@ -3282,6 +3282,7 @@ GameObject:
   - component: {fileID: 3221438905000935048}
   - component: {fileID: 1964011386448178728}
   - component: {fileID: 1924001621705664812}
+  - component: {fileID: 1804267444504114313}
   m_Layer: 0
   m_Name: Green Truck
   m_TagString: Untagged
@@ -3397,6 +3398,91 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_VelocityThreshold: 1
   m_WaitTime: 2
+--- !u!205 &1804267444504114313
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4774004366110257789}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.013622522, y: 1.3468118, z: 0.035946846}
+  m_Size: 7.105958
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.019892612
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4774004365686565574}
+    - renderer: {fileID: 7188152860872446889}
+    - renderer: {fileID: 2893003132021474872}
+    - renderer: {fileID: 8315949526408513880}
+    - renderer: {fileID: 4358561406939724697}
+    - renderer: {fileID: 5396135261618577098}
+    - renderer: {fileID: 1137213049072751784}
+    - renderer: {fileID: 9208977167938569816}
+    - renderer: {fileID: 5067037667046464279}
+    - renderer: {fileID: 7344979192355542808}
+    - renderer: {fileID: 858279875810709707}
+    - renderer: {fileID: 3053362877941116818}
+    - renderer: {fileID: 6718090480323271628}
+    - renderer: {fileID: 8065221261642158912}
+    - renderer: {fileID: 8993144096509918943}
+    - renderer: {fileID: 6605774978117661846}
+    - renderer: {fileID: 4384479078041036798}
+    - renderer: {fileID: 8992433124183630581}
+    - renderer: {fileID: 248618221214550575}
+    - renderer: {fileID: 3993763239449961783}
+    - renderer: {fileID: 2239583575118196240}
+    - renderer: {fileID: 5641777710543408941}
+    - renderer: {fileID: 1680001850391164543}
+    - renderer: {fileID: 4582743013297665807}
+    - renderer: {fileID: 6314430127828540087}
+    - renderer: {fileID: 1661591355391495109}
+    - renderer: {fileID: 1378990822809551646}
+    - renderer: {fileID: 4322241037185885563}
+    - renderer: {fileID: 2732762513103025678}
+    - renderer: {fileID: 8681239324468478058}
+    - renderer: {fileID: 5853847117705225612}
+    - renderer: {fileID: 7128950513576268847}
+    - renderer: {fileID: 6938448549949625331}
+    - renderer: {fileID: 1427314423560673478}
+    - renderer: {fileID: 302289878904791422}
+    - renderer: {fileID: 8043248125460892215}
+    - renderer: {fileID: 4013360434748327169}
+    - renderer: {fileID: 937027361815915618}
+    - renderer: {fileID: 4128266518662783690}
+    - renderer: {fileID: 6048406965469498447}
+    - renderer: {fileID: 1167670576441162841}
+    - renderer: {fileID: 6829164954596691908}
+    - renderer: {fileID: 1952031865518826538}
+    - renderer: {fileID: 6143172944813463033}
+    - renderer: {fileID: 3760578290690290640}
+    - renderer: {fileID: 7686388112986788057}
+    - renderer: {fileID: 8094994597826155137}
+    - renderer: {fileID: 4394773819129006287}
+    - renderer: {fileID: 5902098938680384745}
+    - renderer: {fileID: 6022449489627653632}
+    - renderer: {fileID: 4852844149654215718}
+    - renderer: {fileID: 8016711855497327930}
+    - renderer: {fileID: 1999307727609912707}
+    - renderer: {fileID: 1738542456518360364}
+    - renderer: {fileID: 4832839871668561145}
+    - renderer: {fileID: 3974201420806351385}
+    - renderer: {fileID: 3944417566695913925}
+    - renderer: {fileID: 8940818920890433330}
+    - renderer: {fileID: 3537748455305832153}
+    - renderer: {fileID: 5094000693310135269}
+    - renderer: {fileID: 7826578663393577926}
+    - renderer: {fileID: 4018434074773176624}
+    - renderer: {fileID: 4905607300562562659}
+    - renderer: {fileID: 3064658223892879095}
+    - renderer: {fileID: 3133740225823999252}
+    - renderer: {fileID: 5482999139896059091}
+    - renderer: {fileID: 4567868120514686070}
+  m_Enabled: 1
 --- !u!1 &4774004366111705224
 GameObject:
   m_ObjectHideFlags: 0
@@ -6629,6 +6715,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 79364d531ccc4f54292947e463a7d080, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+--- !u!199 &4774004365686565574 stripped
+ParticleSystemRenderer:
+  m_CorrespondingSourceObject: {fileID: 19900000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}
+  m_PrefabInstance: {fileID: 4774004365701074086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4774004365700683302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 98c58c8dd46640c49bb5f557afafea7c, type: 3}

@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 3988952355918058838}
   - component: {fileID: 3988952355918058839}
   - component: {fileID: 3988952355918058836}
+  - component: {fileID: 65751793171268873}
   m_Layer: 0
   m_Name: Ding Dong Delivery Hero Police
   m_TagString: Untagged
@@ -304,6 +305,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_WaitTime: 3
   m_VelocityThreshold: 1
+--- !u!205 &65751793171268873
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3988952355918058837}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.02033186, y: 1.8259013, z: -0.4071126}
+  m_Size: 5.141412
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.008476076
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6940596886839461182}
+    - renderer: {fileID: 1271918922561460013}
+    - renderer: {fileID: 3272208029447686833}
+    - renderer: {fileID: 1671081815985900364}
+    - renderer: {fileID: 8729979033297130211}
+  m_Enabled: 1
 --- !u!1 &4074374495151840242
 GameObject:
   m_ObjectHideFlags: 0

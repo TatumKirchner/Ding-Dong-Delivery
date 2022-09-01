@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &3856080813744725835
 Transform:
@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7626191068330388430, guid: 65d155eab8206d547bfdb7f918dc13ba, type: 3}
+  - {fileID: 2100000, guid: 9f1780fa949a91c46a987233d3f74afd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,12 +105,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8189593650689246344}
+  - component: {fileID: 7919094359882792319}
   m_Layer: 0
   m_Name: castle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8189593650689246344
 Transform:
@@ -127,3 +128,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &7919094359882792319
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857622399127969330}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -2.64085, y: 7.4734616, z: -1.4170818}
+  m_Size: 31.745571
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.09665625
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3289008643485701322}
+  m_Enabled: 1

@@ -199,6 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1715358618394610604}
+  - component: {fileID: 4832789671590759424}
   m_Layer: 0
   m_Name: gas_station_price_sign_thingaires
   m_TagString: Untagged
@@ -223,6 +224,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &4832789671590759424
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2055327254898053398}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.000038146973, y: 1.9713287, z: -0.0057536364}
+  m_Size: 3.8266215
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.027094333
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3406084139167578760}
+    - renderer: {fileID: 2354868862516688462}
+    - renderer: {fileID: 2269910735239154227}
+  m_Enabled: 1
 --- !u!1 &3796921441388847033
 GameObject:
   m_ObjectHideFlags: 0

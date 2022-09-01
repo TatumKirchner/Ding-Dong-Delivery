@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4500856239505257073}
   - component: {fileID: 4500856239505257074}
   - component: {fileID: 4500856239505257075}
-  - component: {fileID: 4500856239505257076}
+  - component: {fileID: 7250308446225166406}
   m_Layer: 0
   m_Name: WaterPlane
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 4500856239505257077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -526, y: -23.31, z: 262.29}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5.2, y: 1, z: 10.2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78250,17 +78250,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4500856239505257077}
   m_Mesh: {fileID: 0}
---- !u!64 &4500856239505257076
-MeshCollider:
+--- !u!205 &7250308446225166406
+LODGroup:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4500856239505257077}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 25.00003, y: 0, z: 24.999987}
+  m_Size: 50
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6427814
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4500856239505257074}
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}

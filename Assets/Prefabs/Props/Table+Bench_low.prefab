@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 876537685}
   - component: {fileID: 876537686}
   - component: {fileID: 494963502}
+  - component: {fileID: 6339191039157220450}
   m_Layer: 0
   m_Name: Table+Bench_low
   m_TagString: Chair
@@ -127,3 +128,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!205 &6339191039157220450
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4810671113260654972}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -24.553608, y: -0.001953125, z: 19.990835}
+  m_Size: 109.93753
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.034641877
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6467753539145679017}
+  m_Enabled: 1

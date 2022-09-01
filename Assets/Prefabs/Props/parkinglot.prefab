@@ -11,12 +11,13 @@ GameObject:
   - component: {fileID: 7039643582143829399}
   - component: {fileID: 2285604419953589736}
   - component: {fileID: 5985276656291313843}
+  - component: {fileID: 387411680537941784}
   m_Layer: 0
   m_Name: parkinglot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &7039643582143829399
 Transform:
@@ -48,7 +49,7 @@ MeshRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4557194299761383690}
   m_Enabled: 1
-  m_CastShadows: 1
+  m_CastShadows: 0
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
   m_MotionVectors: 1
@@ -81,3 +82,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!205 &387411680537941784
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557194299761383690}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.000061035156, y: 0, z: 0}
+  m_Size: 10
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.046851564
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 5985276656291313843}
+  m_Enabled: 1

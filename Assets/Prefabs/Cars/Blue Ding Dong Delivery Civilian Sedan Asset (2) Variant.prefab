@@ -1,5 +1,28 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!205 &3934711573480985609
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006176366766801370}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.0253945, y: 0.8972521, z: -1.2322509}
+  m_Size: 4.772076
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.01917691
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7020999576900854927}
+    - renderer: {fileID: 8258673499117289596}
+    - renderer: {fileID: 1018678893963509088}
+    - renderer: {fileID: 6990248244476443013}
+    - renderer: {fileID: 9066325235553250629}
+  m_Enabled: 1
 --- !u!1001 &1084772921796282115
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9,7 +32,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 214848053191247577, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
       propertyPath: m_Name
-      value: Blue Ding Dong Delivery Civilian Sedan Asset (2)
+      value: Blue Ding Dong Delivery Civilian Sedan Asset (2) Variant
       objectReference: {fileID: 0}
     - target: {fileID: 698228942499634275, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
       propertyPath: m_RootOrder
@@ -55,5 +78,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1025170328343231382, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+--- !u!1 &1006176366766801370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 214848053191247577, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+  m_PrefabInstance: {fileID: 1084772921796282115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7020999576900854927 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7954054938763895692, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+  m_PrefabInstance: {fileID: 1084772921796282115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &8258673499117289596 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 9048102131498796927, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+  m_PrefabInstance: {fileID: 1084772921796282115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &1018678893963509088 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 85269562370603619, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+  m_PrefabInstance: {fileID: 1084772921796282115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6990248244476443013 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7930762560330120838, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+  m_PrefabInstance: {fileID: 1084772921796282115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &9066325235553250629 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 8277596314014771782, guid: 80c4b1d3236b6ef49aeb9366936d93a6, type: 3}
+  m_PrefabInstance: {fileID: 1084772921796282115}
+  m_PrefabAsset: {fileID: 0}

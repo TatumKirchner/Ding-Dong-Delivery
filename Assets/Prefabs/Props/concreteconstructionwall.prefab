@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 5210183920563028195}
   - component: {fileID: 7424633916371450705}
   - component: {fileID: 2198361885302732503}
+  - component: {fileID: 459865836125382476}
   m_Layer: 0
   m_Name: concreteconstructionwall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &2977227426395310034
 Transform:
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5737399548728010463}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: -0.7069834, y: 0, z: 0, w: 0.7072302}
   m_LocalPosition: {x: 768.32, y: 0.2, z: 387.94}
-  m_LocalScale: {x: 300, y: 299.99994, z: 299.99994}
+  m_LocalScale: {x: 300, y: 299.9999, z: 299.9999}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -89.98, y: 0, z: 0}
 --- !u!33 &5210183920563028195
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -95,3 +96,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.032877572, y: 0.007646361, z: 0.015052684}
   m_Center: {x: 0.0002599219, y: 0.00000011920929, z: 0.007526342}
+--- !u!205 &459865836125382476
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5737399548728010463}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.00025968254, y: 0.0000009536743, z: 0.007526432}
+  m_Size: 0.032878567
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.015846355
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7424633916371450705}
+  m_Enabled: 1

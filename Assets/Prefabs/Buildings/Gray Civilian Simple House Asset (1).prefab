@@ -12,12 +12,13 @@ GameObject:
   - component: {fileID: 4722936154365039671}
   - component: {fileID: 7381340558101831933}
   - component: {fileID: 8784032326046229172}
+  - component: {fileID: 190940316315919327}
   m_Layer: 0
   m_Name: Gray Civilian Simple House Asset (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &8513183172216232850
 Transform:
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 9038502699170545960}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
   m_LocalPosition: {x: 1418.9, y: 29.1, z: 1642.87}
-  m_LocalScale: {x: 1100, y: 1000, z: 1010}
+  m_LocalScale: {x: 1100.0002, y: 1000, z: 1010.00024}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -97,3 +98,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4305866669524548251, guid: 22ca064f8880acd4d8c98a9cb0206d83, type: 3}
+--- !u!205 &190940316315919327
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9038502699170545960}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.006193526, y: 0.004220644, z: 0.002630189}
+  m_Size: 0.035266105
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07919422
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7381340558101831933}
+  m_Enabled: 1

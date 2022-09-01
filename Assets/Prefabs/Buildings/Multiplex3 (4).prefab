@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4913740470050584093}
   - component: {fileID: 4913740470050584066}
   - component: {fileID: 3498729751713109683}
+  - component: {fileID: 2561424482322993438}
   m_Layer: 0
   m_Name: Multiplex3 (4)
   m_TagString: Untagged
@@ -96,3 +97,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -7754318969949236687, guid: 5645c443cf5516a418a7a5b99e74ce1c, type: 3}
+--- !u!205 &2561424482322993438
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4913740470050584064}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -15.998514, y: 3.7659292, z: 3.0201244}
+  m_Size: 31.916355
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.10238406
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4913740470050584066}
+  m_Enabled: 1
