@@ -3,75 +3,84 @@ Ding Dong Delivery is a wacky open-world food delivery driving simulation game.I
 
 #### Download a build on [itch.io](https://tatumkirchner.itch.io/ding-dong-delivery)
 
+---
+
 General Features:
 
-Sizable World Map with Dynamic Traffic
-Delivery Driving Cars
-Wacky Voice Acted Characters
-3D Low Poly Models
-Vibrant Colored Textures
-Enemy Delivery Drivers
-Upgrades and Player Progression
-*It is recommended to play with a controller but mouse and keyboard will work as well. All of the controls can be found in the pause and start menu.
+- Sizable World Map with Dynamic Traffic
+- Delivery Driving Cars
+- Wacky Voice Acted Characters
+- 3D Low Poly Models
+- Vibrant Colored Textures
+- Enemy Delivery Drivers
+- Upgrades and Player Progression
+    
+<sub>*It is recommended to play with a controller but mouse and keyboard will work as well. All of the controls can be found in the pause and start menu.</sub>
 
 Gamepad Controls:
+-
 
-    -Accelerate with Right Trigger
+Accelerate with <kbd>Right Trigger</kdb>
 
-    -Break with Left Trigger/Handbrake with South Gamepad Button
+Break with <kbd>Left Trigger</kbd>
 
-    -Steer with Left stick
+Handbrake with <kbd>South Gamepad Button</kbd>
 
-    -Rotate Camera with Right Stick
+Steer with <kbd>Left stick</kbd>
 
-    -Open Order Menu with North Button
+Rotate Camera with <kbd>Right Stick</kbd>
 
-    -Launch Weapons with East Button
+Open Order Menu with <kbd>North Button</kbd>
 
-    -Switch Weapons with Left/Right Shoulder Buttons
+Launch Weapons with <kbd>East Button</kbd>
 
-    -Pause with Start Button
+Switch Weapons with <kbd>Left/Right Shoulder Buttons</kbd>
 
-    -Reset Car with Select Button
+Pause with <kbd>Start Button</kbd>
 
-    -Navigate menus with D-pad/Left Stick and select items with South Button
+Reset Car with <kbd>Select Button</kbd>
+
+Navigate menus with <kbd>D-pad/Left Stick</kbd> and select items with <kbd>South Button</kbd>
 
 Keyboard and Mouse Controls:
+-
 
-    -Accelerate with W
+Accelerate with <kbd>W</kbd>
 
-    -Break with S and Handbrake with Spacebar
+Break with <kbd>S</kbd> and Handbrake with <kbd>Spacebar</kbd>
 
-    -Steer with A/D
+Steer with <kbd>A</kbd> / <kbd>D</kbd>
 
-    -Rotate Camera with Mouse
+Rotate Camera with <kbd>Mouse</kbd>
 
-    -Open Order menu with E
+Open Order menu with <kbd>E</kbd>
 
-    -Launch Weapons with Left Mouse Button
+Launch Weapons with <kbd>LMB</kbd>
 
-    -Switch Weapons with Mouse Scroll Wheel
+Switch Weapons with <kbd>Scroll Wheel</kbd>
 
-    -Pause with ESC
+Pause with <kbd>ESC</kbd>
 
-    -Reset Car with R
+Reset Car with <kbd>R</kbd>
 
-    -Navigate menus with Mouse/W-S/Arrow keys and Select menu items with Left Mouse Button/Enter
+Navigate menus with <kbd>Mouse</kbd> / <kbd>W</kbd> - <kbd>S</kbd> / <kbd>Arrow keys</kbd> and select menu items with <kbd>LMB</kbd> / <kbd>Enter</kbd>
     
+---
 Credits:
+-
 
-    -Darius Saberzadeh - Producer, Lead Designer, Writer, UI, Level Design, Voice actor
+-Darius Saberzadeh - Producer, Lead Designer, Writer, UI, Level Design, Voice actor
     
-    -Tatum Kirchner - Lead Programmer, Designer
+-Tatum Kirchner - Lead Programmer, Designer
     
-    -Rudy Gurrola - Artist, Level Designer
+-Rudy Gurrola - Artist, Level Designer
     
-    -Joey Alfred - Artist
+-Joey Alfred - Artist
     
-    -Shanhao Bian - Level Designer
+-Shanhao Bian - Level Designer
     
-    -Robert Beccera - Audio Composition, Design
+-Robert Beccera - Audio Composition, Design
     
-    -Connor Aguirre - Voice Actor, Writer
+-Connor Aguirre - Voice Actor, Writer
     
-    -Wyatt Limon - Voice Actor
+-Wyatt Limon - Voice Actor
